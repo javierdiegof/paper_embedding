@@ -1,0 +1,1980 @@
+{
+    "Attention is All you Need": {
+        "seed_id": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+        "citations_by_title": {
+            "A Deep Reinforced Model for Abstractive Summarization": {
+                "paperId": "032274e57f7d8b456bd255fe76b909b2c1d7458e",
+                "corpusId": "21850704"
+            },
+            "Convolutional Sequence to Sequence Learning": {
+                "paperId": "43428880d75b3a14257c3ee9bda054e61eb869c0",
+                "corpusId": "3648736"
+            },
+            "Massive Exploration of Neural Machine Translation Architectures": {
+                "paperId": "4550a4c714920ef57d19878e31c9ebae37b049b2",
+                "corpusId": "2201909"
+            },
+            "A Structured Self-attentive Sentence Embedding": {
+                "paperId": "204a4a70428f3938d2c538a4d74c7ae0416306d8",
+                "corpusId": "15280949"
+            },
+            "Factorization tricks for LSTM networks": {
+                "paperId": "79baf48bd560060549998d7b61751286de062e2a",
+                "corpusId": "3570621"
+            },
+            "Structured Attention Networks": {
+                "paperId": "13d9323a8716131911bfda048a40e2cde1a76a46",
+                "corpusId": "6961760"
+            },
+            "Outrageously Large Neural Networks: The Sparsely-Gated Mixture-of-Experts Layer": {
+                "paperId": "510e26733aaff585d65701b9f1be7ca9d5afc586",
+                "corpusId": "12462234"
+            },
+            "Neural Machine Translation in Linear Time": {
+                "paperId": "98445f4172659ec5e891e031d8202c102135c644",
+                "corpusId": "13895969"
+            },
+            "Can Active Memory Replace Attention?": {
+                "paperId": "735d547fc75e0772d2a78c46a1cc5fad7da1474c",
+                "corpusId": "11250862"
+            },
+            "Xception: Deep Learning with Depthwise Separable Convolutions": {
+                "paperId": "5b6ec746d309b165f9f9def873a2375b6fb40f3d",
+                "corpusId": "2375110"
+            },
+            "Google's Neural Machine Translation System: Bridging the Gap between Human and Machine Translation": {
+                "paperId": "c6850869aa5e78a107c378d2e8bfa39633158c0c",
+                "corpusId": "3603249"
+            },
+            "Using the Output Embedding to Improve Language Models": {
+                "paperId": "63e39cdf1ad884da6bc69096bb3413b5b1100559",
+                "corpusId": "836219"
+            },
+            "Layer Normalization": {
+                "paperId": "97fb4e3d45bb098e27e0071448b6152217bd35a5",
+                "corpusId": "8236317"
+            },
+            "Deep Recurrent Models with Fast-Forward Connections for Neural Machine Translation": {
+                "paperId": "b60abe57bc195616063be10638c6437358c81d1e",
+                "corpusId": "8586038"
+            },
+            "Exploring the Limits of Language Modeling": {
+                "paperId": "2f2d8f8072e5cc9b296fad551f65f183bdbff7aa",
+                "corpusId": "260422"
+            },
+            "Recurrent Neural Network Grammars": {
+                "paperId": "7345843e87c81e24e42264859b214d26042f8d51",
+                "corpusId": "1949831"
+            },
+            "Long Short-Term Memory-Networks for Machine Reading": {
+                "paperId": "13fe71da009484f240c46f14d9330e932f8de210",
+                "corpusId": "6506243"
+            },
+            "Deep Residual Learning for Image Recognition": {
+                "paperId": "2c03df8b48bf3fa39054345bafabfeff15bfd11d",
+                "corpusId": "206594692"
+            },
+            "Rethinking the Inception Architecture for Computer Vision": {
+                "paperId": "23ffaa0fe06eae05817f527a47ac3291077f9e58",
+                "corpusId": "206593880"
+            },
+            "Neural GPUs Learn Algorithms": {
+                "paperId": "5e4eb58d5b47ac1c73f4cf189497170e75ae6237",
+                "corpusId": "2009318"
+            },
+            "Multi-task Sequence to Sequence Learning": {
+                "paperId": "d76c07211479e233f7c6a6f32d5346c983c5598f",
+                "corpusId": "6954272"
+            },
+            "Neural Machine Translation of Rare Words with Subword Units": {
+                "paperId": "1518039b5001f1836565215eb047526b3ac7f462",
+                "corpusId": "1114678"
+            },
+            "Effective Approaches to Attention-based Neural Machine Translation": {
+                "paperId": "93499a7c7f699b6630a86fad964536f9423bb6d0",
+                "corpusId": "1998416"
+            },
+            "End-To-End Memory Networks": {
+                "paperId": "4f10b9f47c5bb6b54dd4f5ca8d9fa2c0bbd7ec5e",
+                "corpusId": "1399322"
+            },
+            "Grammar as a Foreign Language": {
+                "paperId": "47570e7f63e296f224a0e7f9a0d08b0de3cbaf40",
+                "corpusId": "14223"
+            },
+            "Adam: A Method for Stochastic Optimization": {
+                "paperId": "a6cb366736791bcccc5c8639de5a8f9636bf87e8",
+                "corpusId": "6628106"
+            },
+            "Empirical Evaluation of Gated Recurrent Neural Networks on Sequence Modeling": {
+                "paperId": "ac3ee98020251797c2b401e1389461df88e52e62",
+                "corpusId": "5201925"
+            },
+            "Sequence to Sequence Learning with Neural Networks": {
+                "paperId": "cea967b59209c6be22829699f05b8b1ac4dc092d",
+                "corpusId": "7961699"
+            },
+            "Neural Machine Translation by Jointly Learning to Align and Translate": {
+                "paperId": "fa72afa9b2cbc8f0d7b05d52548906610ffbb9c5",
+                "corpusId": "11212020"
+            },
+            "Learning Phrase Representations using RNN Encoder\u2013Decoder for Statistical Machine Translation": {
+                "paperId": "0b544dfe355a5070b60986319a3f51fb45d1348e",
+                "corpusId": "5590763"
+            },
+            "Generating Sequences With Recurrent Neural Networks": {
+                "paperId": "6471fd1cbc081fb3b7b5b14d6ab9eaaba02b5c17",
+                "corpusId": "1697424"
+            },
+            "Fast and Accurate Shift-Reduce Constituent Parsing": {
+                "paperId": "174bbdb96252454cbb40a9c4e53335996235a008",
+                "corpusId": "10361562"
+            },
+            "Self-Training PCFG Grammars with Latent Annotations Across Languages": {
+                "paperId": "5bfd8d40bc071fffaf93685a46974b122ee4239d",
+                "corpusId": "447315"
+            },
+            "Learning Accurate, Compact, and Interpretable Tree Annotation": {
+                "paperId": "f52de7242e574b70410ca6fb70b79c811919fc00",
+                "corpusId": "6684426"
+            },
+            "Effective Self-Training for Parsing": {
+                "paperId": "78a9513e70f596077179101f6cb6eadc51602039",
+                "corpusId": "628455"
+            },
+            "Long Short-Term Memory": {
+                "paperId": "2e9d221c206e9503ceb452302d68d10e293f2a10",
+                "corpusId": "1915014"
+            },
+            "Building a Large Annotated Corpus of English: The Penn Treebank": {
+                "paperId": "0b44fcbeea9415d400c5f5789d6b892b6f98daff",
+                "corpusId": "252796"
+            },
+            "Dropout: a simple way to prevent neural networks from overfitting": {
+                "paperId": "34f25a8704614163c4095b3ee2fc969b60de4698",
+                "corpusId": "6844431"
+            },
+            "Gradient Flow in Recurrent Nets: the Difficulty of Learning Long-Term Dependencies": {
+                "paperId": "2e5f2b57f4c476dd69dc22ccdf547e48f40a994c",
+                "corpusId": "17278462"
+            }
+        }
+    },
+    "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding": {
+        "seed_id": "df2b0e26d0599ce3e70df8a9da02e51594e0e992",
+        "citations_by_title": {
+            "Multi-Granularity Hierarchical Attention Fusion Networks for Reading Comprehension and Question Answering": {
+                "paperId": "26b47e35fe6e4260fdf7b7cc98f279a73c277494",
+                "corpusId": "51867574"
+            },
+            "U-Net: Machine Reading Comprehension with Unanswerable Questions": {
+                "paperId": "27e98e09cf09bc13c913d01676e5f32624011050",
+                "corpusId": "53116060"
+            },
+            "Semi-Supervised Sequence Modeling with Cross-View Training": {
+                "paperId": "0c47cad9729c38d9db1f75491b1ee4bd883a5d4e",
+                "corpusId": "52811641"
+            },
+            "Dissecting Contextual Word Embeddings: Architecture and Representation": {
+                "paperId": "ac11062f1f368d97f4c826c317bf50dcc13fdb59",
+                "corpusId": "52098907"
+            },
+            "SWAG: A Large-Scale Adversarial Dataset for Grounded Commonsense Inference": {
+                "paperId": "af5c4b80fbf847f69a202ba5a780a3dd18c1a027",
+                "corpusId": "52019251"
+            },
+            "Character-Level Language Modeling with Deeper Self-Attention": {
+                "paperId": "b9de9599d7241459db9213b5cdd7059696f5ef8d",
+                "corpusId": "52004855"
+            },
+            "Contextual String Embeddings for Sequence Labeling": {
+                "paperId": "421fc2556836a6b441de806d7b393a35b6eaea58",
+                "corpusId": "52010710"
+            },
+            "Neural Network Acceptability Judgments": {
+                "paperId": "cb0f3ee1e98faf92429d601cdcd76c69c1e484eb",
+                "corpusId": "44072099"
+            },
+            "GLUE: A Multi-Task Benchmark and Analysis Platform for Natural Language Understanding": {
+                "paperId": "451d4a16e425ecbf38c4b1cca0dcf5d9bec8255c",
+                "corpusId": "5034059"
+            },
+            "Deep Contextualized Word Representations": {
+                "paperId": "3febb2bed8865945e7fddc99efd791887bb7e14f",
+                "corpusId": "3626819"
+            },
+            "An efficient framework for learning sentence representations": {
+                "paperId": "ad31866da7f14ae21bd38df0a3b1ffd1a1438122",
+                "corpusId": "3525802"
+            },
+            "QANet: Combining Local Convolution with Global Self-Attention for Reading Comprehension": {
+                "paperId": "8c1b00128e74f1cd92aede3959690615695d5101",
+                "corpusId": "4842909"
+            },
+            "MaskGAN: Better Text Generation via Filling in the ______": {
+                "paperId": "7f4afc1bf3272ae6ec00b46e27efc4a4f6b0826d",
+                "corpusId": "3655946"
+            },
+            "Universal Language Model Fine-tuning for Text Classification": {
+                "paperId": "1e077413b25c4d34945cc2707e17e46ed4fe784a",
+                "corpusId": "40100965"
+            },
+            "Simple and Effective Multi-Paragraph Reading Comprehension": {
+                "paperId": "3c78c6df5eb1695b6a399e346dde880af27d1016",
+                "corpusId": "223637"
+            },
+            "Learned in Translation: Contextualized Word Vectors": {
+                "paperId": "bc8fa64625d9189f5801837e7b133e7fe3c581f7",
+                "corpusId": "9447219"
+            },
+            "SemEval-2017 Task 1: Semantic Textual Similarity Multilingual and Crosslingual Focused Evaluation": {
+                "paperId": "a23fa96e7217ba0e9405d9e1fe3cdedd57b6e096",
+                "corpusId": "4421747"
+            },
+            "Attention is All you Need": {
+                "paperId": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+                "corpusId": "13756489"
+            },
+            "Reinforced Mnemonic Reader for Machine Reading Comprehension": {
+                "paperId": "e0222a1ae6874f7fff128c3da8769ab95963da04",
+                "corpusId": "13559921"
+            },
+            "Supervised Learning of Universal Sentence Representations from Natural Language Inference Data": {
+                "paperId": "ee7b883e35d754ae4f71c21bb71f9f03e4ffbb2c",
+                "corpusId": "28971531"
+            },
+            "TriviaQA: A Large Scale Distantly Supervised Challenge Dataset for Reading Comprehension": {
+                "paperId": "f010affab57b5fcf1cd6be23df79d8ec98c7289c",
+                "corpusId": "26501419"
+            },
+            "Discourse-Based Objectives for Fast Unsupervised Sentence Representation Learning": {
+                "paperId": "a97dc52807d80454e78d255f9fbd7b0fab56bd03",
+                "corpusId": "6694822"
+            },
+            "A Broad-Coverage Challenge Corpus for Sentence Understanding through Inference": {
+                "paperId": "5ded2b8c64491b4a67f6d39ce473d4b9347a672e",
+                "corpusId": "3432876"
+            },
+            "Semi-supervised sequence tagging with bidirectional language models": {
+                "paperId": "0bb4cadc80c0afaf29c57518dc9c06f8fcfa5f38",
+                "corpusId": "7197241"
+            },
+            "Bidirectional Attention Flow for Machine Comprehension": {
+                "paperId": "3a7b63b50c64f4ec3358477790e84cbd6be2a0b4",
+                "corpusId": "8535316"
+            },
+            "Google's Neural Machine Translation System: Bridging the Gap between Human and Machine Translation": {
+                "paperId": "c6850869aa5e78a107c378d2e8bfa39633158c0c",
+                "corpusId": "3603249"
+            },
+            "context2vec: Learning Generic Context Embedding with Bidirectional LSTM": {
+                "paperId": "59761abc736397539bdd01ad7f9d91c8607c0457",
+                "corpusId": "7890036"
+            },
+            "Bridging Nonlinearities and Stochastic Regularizers with Gaussian Error Linear Units": {
+                "paperId": "4361e64f2d12d63476fdc88faf72a0f70d9a2ffb",
+                "corpusId": "2359786"
+            },
+            "SQuAD: 100,000+ Questions for Machine Comprehension of Text": {
+                "paperId": "05dd7254b632376973f3a1b4d39485da17814df5",
+                "corpusId": "11816014"
+            },
+            "A Decomposable Attention Model for Natural Language Inference": {
+                "paperId": "2cd8e8f510c89c7c18268e8ad51c061e459ad321",
+                "corpusId": "8495258"
+            },
+            "Learning Distributed Representations of Sentences from Unlabelled Data": {
+                "paperId": "26e743d5bd465f49b9538deaf116c15e61b7951f",
+                "corpusId": "2937095"
+            },
+            "Semi-supervised Sequence Learning": {
+                "paperId": "4aa9f5150b46320f534de4747a2dd0cd7f3fe292",
+                "corpusId": "7138078"
+            },
+            "A large annotated corpus for learning natural language inference": {
+                "paperId": "f04df4e20a18358ea2f689b4c129781628ef7fc1",
+                "corpusId": "14604520"
+            },
+            "Skip-Thought Vectors": {
+                "paperId": "6e795c6e9916174ae12349f5dc3f516570c17ce8",
+                "corpusId": "9126867"
+            },
+            "Aligning Books and Movies: Towards Story-Like Visual Explanations by Watching Movies and Reading Books": {
+                "paperId": "0e6824e137847be0599bb0032e37042ed2ef5045",
+                "corpusId": "6866988"
+            },
+            "How transferable are features in deep neural networks?": {
+                "paperId": "081651b38ff7533550a3adfc1c00da333a8fe86c",
+                "corpusId": "362467"
+            },
+            "GloVe: Global Vectors for Word Representation": {
+                "paperId": "f37e1b62a767a307c046404ca96bc140b3e68cb5",
+                "corpusId": "1957433"
+            },
+            "Distributed Representations of Sentences and Documents": {
+                "paperId": "f3de86aeb442216a8391befcacb49e58b478f512",
+                "corpusId": "2407601"
+            },
+            "One billion word benchmark for measuring progress in statistical language modeling": {
+                "paperId": "5d833331b0e22ff359db05c62a8bca18c4f04b68",
+                "corpusId": "14136307"
+            },
+            "Distributed Representations of Words and Phrases and their Compositionality": {
+                "paperId": "87f40e6f3022adbc1f1905e3e506abad05a9964f",
+                "corpusId": "16447573"
+            },
+            "Recursive Deep Models for Semantic Compositionality Over a Sentiment Treebank": {
+                "paperId": "687bac2d3320083eb4530bf18bb8f8f721477600",
+                "corpusId": "990233"
+            },
+            "The Winograd Schema Challenge": {
+                "paperId": "128cb6b891aee1b5df099acb48e2efecfcff689f",
+                "corpusId": "15710851"
+            },
+            "Word Representations: A Simple and General Method for Semi-Supervised Learning": {
+                "paperId": "8492070dc4031ed825e95e4803781752bb5e909f",
+                "corpusId": "629094"
+            },
+            "Natural Language Understanding": {
+                "paperId": "7be3afdb7b7894321027ec90ea0a990aa7a0f266",
+                "corpusId": "28817116"
+            },
+            "ImageNet: A large-scale hierarchical image database": {
+                "paperId": "d2c733e34d48784a37d717fe43d9e93277a8c53e",
+                "corpusId": "57246310"
+            },
+            "A Scalable Hierarchical Distributed Language Model": {
+                "paperId": "a9fc84f8abe740cdc7ee82e69444d1d00dbe0ceb",
+                "corpusId": "10097073"
+            },
+            "A unified architecture for natural language processing: deep neural networks with multitask learning": {
+                "paperId": "57458bc1cffe5caa45a885af986d70f723f406b4",
+                "corpusId": "2617020"
+            },
+            "Extracting and composing robust features with denoising autoencoders": {
+                "paperId": "843959ffdccf31c6694d135fad07425924f785b1",
+                "corpusId": "207168299"
+            },
+            "Domain Adaptation with Structural Correspondence Learning": {
+                "paperId": "9fa8d73e572c3ca824a04a5f551b602a17831bc5",
+                "corpusId": "15978939"
+            },
+            "A Framework for Learning Predictive Structures from Multiple Tasks and Unlabeled Data": {
+                "paperId": "2c5135a0531bc5ad7dd890f018e67a40529f5bcb",
+                "corpusId": "13650160"
+            },
+            "Introduction to the CoNLL-2003 Shared Task: Language-Independent Named Entity Recognition": {
+                "paperId": "10f97f1fb4f5c2c8e6c44d4a33da46d331dd4aeb",
+                "corpusId": "2470716"
+            },
+            "Class-Based n-gram Models of Natural Language": {
+                "paperId": "3de5d40b60742e3dfa86b19e7f660962298492af",
+                "corpusId": "10986188"
+            },
+            "\u201cCloze Procedure\u201d: A New Tool for Measuring Readability": {
+                "paperId": "766ce989b8b8b984f7a4691fd8c9af4bdb2b74cd",
+                "corpusId": "206666846"
+            },
+            "Quora Question Pairs": {
+                "paperId": "8ff46c88964a36985f2b45933a3d47b81bd87bd0",
+                "corpusId": "233225749"
+            },
+            "The Seventh PASCAL Recognizing Textual Entailment Challenge": {
+                "paperId": "0f8468de03ee9f12d693237bec87916311bf1c24",
+                "corpusId": "5791809"
+            },
+            "The Sixth PASCAL Recognizing Textual Entailment Challenge": {
+                "paperId": "db8885a0037fe47d973ade79d696586453710233",
+                "corpusId": "858065"
+            },
+            "The Fourth PASCAL Recognizing Textual Entailment Challenge": {
+                "paperId": "351ec42df2b60c6042addf96e6b98673bbaf4dfd",
+                "corpusId": "12381965"
+            },
+            "Automatically Constructing a Corpus of Sentential Paraphrases": {
+                "paperId": "475354f10798f110d34792b6d88f31d6d5cb099e",
+                "corpusId": "16639476"
+            },
+            "The PASCAL Recognising Textual Entailment Challenge": {
+                "paperId": "e808f28d411a958c5db81ceb111beb2638698f47",
+                "corpusId": "8587959"
+            }
+        }
+    },
+    "Deep Residual Learning for Image Recognition": {
+        "seed_id": "2c03df8b48bf3fa39054345bafabfeff15bfd11d",
+        "citations_by_title": {
+            "Training Very Deep Networks": {
+                "paperId": "b92aa7024b87f50737b372e5df31ef091ab54e62",
+                "corpusId": "2722012"
+            },
+            "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks": {
+                "paperId": "424561d8585ff8ebce7d5d07de8dbf7aae5e7270",
+                "corpusId": "10328909"
+            },
+            "Object Detection via a Multi-region and Semantic Segmentation-Aware CNN Model": {
+                "paperId": "020928259a848b91b7c36062e4bbc6df6398c02e",
+                "corpusId": "215824235"
+            },
+            "Highway Networks": {
+                "paperId": "e0945081b5b87187a53d4329cf77cd8bff635795",
+                "corpusId": "14786967"
+            },
+            "Fast R-CNN": {
+                "paperId": "7ffdbc358b63378f07311e883dddacc9faeeaf4b",
+                "corpusId": "206770307"
+            },
+            "Object Detection Networks on Convolutional Feature Maps": {
+                "paperId": "f075f89b4f4026748cbf2fb9f989a9934c42ee8f",
+                "corpusId": "5919483"
+            },
+            "Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift": {
+                "paperId": "995c5f5e62614fcb4d2796ad2faab969da51713e",
+                "corpusId": "5808102"
+            },
+            "Delving Deep into Rectifiers: Surpassing Human-Level Performance on ImageNet Classification": {
+                "paperId": "d6f2f611da110b5b5061731be3fc4c7f45d8ee23",
+                "corpusId": "13740328"
+            },
+            "FitNets: Hints for Thin Deep Nets": {
+                "paperId": "8604f376633af8b347e31d84c6150a93b11e34c2",
+                "corpusId": "2723173"
+            },
+            "Convolutional neural networks at constrained time cost": {
+                "paperId": "8ad35df17ae4064dd174690efb04d347428f1117",
+                "corpusId": "2141952"
+            },
+            "Fully convolutional networks for semantic segmentation": {
+                "paperId": "6fc6803df5f9ae505cae5b2f178ade4062c768d0",
+                "corpusId": "1629541"
+            },
+            "Deeply-Supervised Nets": {
+                "paperId": "fb91db6aa4f710814f8aec28a7f3ecbc4e5ad4fd",
+                "corpusId": "1289873"
+            },
+            "Going deeper with convolutions": {
+                "paperId": "e15cf50aa89fee8535703b9f9512fca5bfc43327",
+                "corpusId": "206592484"
+            },
+            "Very Deep Convolutional Networks for Large-Scale Image Recognition": {
+                "paperId": "eb42cf88027de515750f230b23b1a057dc782108",
+                "corpusId": "14124313"
+            },
+            "ImageNet Large Scale Visual Recognition Challenge": {
+                "paperId": "e74f9b7f8eec6ba4704c206b93bc8079af3da4bd",
+                "corpusId": "2930547"
+            },
+            "Caffe: Convolutional Architecture for Fast Feature Embedding": {
+                "paperId": "6bdb186ec4726e00a8051119636d4df3b94043b5",
+                "corpusId": "1799558"
+            },
+            "Spatial Pyramid Pooling in Deep Convolutional Networks for Visual Recognition": {
+                "paperId": "cbb19236820a96038d000dc629225d36e0b6294a",
+                "corpusId": "436933"
+            },
+            "Microsoft COCO: Common Objects in Context": {
+                "paperId": "71b7178df5d2b112d07e45038cb5637208659ff7",
+                "corpusId": "14113767"
+            },
+            "On the Number of Linear Regions of Deep Neural Networks": {
+                "paperId": "b034b5769ab94acf9fb8ae48c7edb560a300bb63",
+                "corpusId": "5941770"
+            },
+            "OverFeat: Integrated Recognition, Localization and Detection using Convolutional Networks": {
+                "paperId": "1109b663453e78a59e4f66446d71720ac58cec25",
+                "corpusId": "4071727"
+            },
+            "Exact solutions to the nonlinear dynamics of learning in deep linear neural networks": {
+                "paperId": "99c970348b8f70ce23d6641e201904ea49266b6e",
+                "corpusId": "17272965"
+            },
+            "Network In Network": {
+                "paperId": "5e83ab70d0cbc003471e87ec306d27d9c80ecb16",
+                "corpusId": "16636683"
+            },
+            "Visualizing and Understanding Convolutional Neural Networks": {
+                "paperId": "fc26b9c1afe81e1b20195123fe6f3ced9520abb6",
+                "corpusId": "62099841"
+            },
+            "Rich Feature Hierarchies for Accurate Object Detection and Semantic Segmentation": {
+                "paperId": "2f4df08d9072fc2ac181b7fced6a245315ce05c8",
+                "corpusId": "215827080"
+            },
+            "Maxout Networks": {
+                "paperId": "b7b915d508987b73b61eccd2b237e7ed099a2d29",
+                "corpusId": "10600578"
+            },
+            "Pushing Stochastic Gradient towards Second-Order Methods -- Backpropagation Learning with Transformations in Nonlinearities": {
+                "paperId": "f72c079d9179cfaada1135a7e4c77d48b6309a30",
+                "corpusId": "8739352"
+            },
+            "ImageNet classification with deep convolutional neural networks": {
+                "paperId": "abd1c342495432171beb7ca8fd9551ef13cbd0ff",
+                "corpusId": "195908774"
+            },
+            "Aggregating Local Image Descriptors into Compact Codes": {
+                "paperId": "5183230b706b72f6f6c19415c423d93c79ddde53",
+                "corpusId": "9437674"
+            },
+            "Improving neural networks by preventing co-adaptation of feature detectors": {
+                "paperId": "0060745e006c5f14ec326904119dca19c6545e51",
+                "corpusId": "14832074"
+            },
+            "Deep Learning Made Easier by Linear Transformations in Perceptrons": {
+                "paperId": "b8ef1230a5cc9ea7cd8358f1ae7d1af97813ba14",
+                "corpusId": "2204994"
+            },
+            "Vlfeat: an open and portable library of computer vision algorithms": {
+                "paperId": "d720a95e1501922ea17ee31f299f43b2db5e15ef",
+                "corpusId": "1458265"
+            },
+            "Rectified Linear Units Improve Restricted Boltzmann Machines": {
+                "paperId": "a538b05ebb01a40323997629e171c91aa28b8e2f",
+                "corpusId": "15539264"
+            },
+            "Understanding the difficulty of training deep feedforward neural networks": {
+                "paperId": "ea9d2a2b4ce11aaf85136840c65f3bc9c03ab649",
+                "corpusId": "5575601"
+            },
+            "Et al": {
+                "paperId": "bc6dff14a130c57a91d5a21339c23471faf1d46f",
+                "corpusId": "11759366"
+            },
+            "Fisher Kernels on Visual Vocabularies for Image Categorization": {
+                "paperId": "23694b6d61668e62bb11f17c1d75dde3b4951948",
+                "corpusId": "12795415"
+            },
+            "Locally adapted hierarchical basis preconditioning": {
+                "paperId": "4f04da90218f8ddfa3a758188edade8c7bd95ac1",
+                "corpusId": "835779"
+            },
+            "A multigrid tutorial, Second Edition": {
+                "paperId": "1bd875676fe49f83d431500cea908da1bdf068da",
+                "corpusId": "58982102"
+            },
+            "Accelerated Gradient Descent by Factor-Centering Decomposition": {
+                "paperId": "5763bd6b3f24a01c3bc7cd15d3c916b4840b759d",
+                "corpusId": "14135490"
+            },
+            "Long Short-Term Memory": {
+                "paperId": "2e9d221c206e9503ceb452302d68d10e293f2a10",
+                "corpusId": "1915014"
+            },
+            "Modern Applied Statistics with S-Plus.": {
+                "paperId": "1f711685bfe9e67d6afe0d5a3cb6675c310237d6",
+                "corpusId": "61844108"
+            },
+            "Learning long-term dependencies with gradient descent is difficult": {
+                "paperId": "d0be39ee052d246ae99c082a565aba25b811be2d",
+                "corpusId": "206457500"
+            },
+            "Backpropagation Applied to Handwritten Zip Code Recognition": {
+                "paperId": "a8e8f3c8d4418c8d62e306538c9c1292635e9d27",
+                "corpusId": "41312633"
+            },
+            "Fast surface interpolation using hierarchical basis functions": {
+                "paperId": "1efc5a54a4b3f4675bee194ee5842978e45a5bc2",
+                "corpusId": "6245009"
+            },
+            "Efficient BackProp": {
+                "paperId": "b87274e6d9aa4e6ba5148898aa92941617d2b6ed",
+                "corpusId": "20158889"
+            },
+            "Product Quantization for Nearest Neighbor Search": {
+                "paperId": "4748d22348e72e6e06c2476486afddbc76e5eca7",
+                "corpusId": "5850884"
+            },
+            "The devil is in the details: an evaluation of recent feature encoding methods": {
+                "paperId": "7b7908f71188b89adf62ce9126a0466e1a34338f",
+                "corpusId": "13126996"
+            },
+            "Learning Multiple Layers of Features from Tiny Images": {
+                "paperId": "5d90f06bb70a0a3dced62413346235c02b1aa086",
+                "corpusId": "18268744"
+            },
+            "Centering Neural Network Gradient Factors": {
+                "paperId": "75a026ddfdd9c219d69fe8af816f085ea1b3877d",
+                "corpusId": "2226276"
+            },
+            "Pattern Recognition and Neural Networks": {
+                "paperId": "bf7e1b6997433dcb2121b07cce1de1c61471ff2d",
+                "corpusId": "9584248"
+            },
+            "Neural Networks for Pattern Recognition": {
+                "paperId": "83b6755242f1cff6bacf270f65b4626d4d118f32",
+                "corpusId": "177751"
+            },
+            "Untersuchungen zu dynamischen neuronalen Netzen": {
+                "paperId": "3f3d13e95c25a8f6a753e38dfce88885097cbd43",
+                "corpusId": "60091947"
+            },
+            "A multigrid tutorial": {
+                "paperId": "8a2384ff41dc2c337e6aaacbcfd13f74e0e2f1ea",
+                "corpusId": "33704151"
+            },
+            "International Journal of Computer Vision manuscript No. (will be inserted by the editor) The PASCAL Visual Object Classes (VOC) Challenge": {
+                "paperId": "3a9b175324ba11bc0e16c0633912d897b2fac4e2",
+                "corpusId": "4246903"
+            }
+        }
+    },
+    "Adam: A Method for Stochastic Optimization": {
+        "seed_id": "a6cb366736791bcccc5c8639de5a8f9636bf87e8",
+        "citations_by_title": {
+            "Auto-Encoding Variational Bayes": {
+                "paperId": "5f5dc5b9a2ba710937e2c413b37b053cd673df02",
+                "corpusId": "216078090"
+            },
+            "Fast large-scale optimization by unifying stochastic gradient and quasi-Newton methods": {
+                "paperId": "af0ee019dcc1fe7eab918e3c670a6c47e48d17f6",
+                "corpusId": "10978620"
+            },
+            "Generating Sequences With Recurrent Neural Networks": {
+                "paperId": "6471fd1cbc081fb3b7b5b14d6ab9eaaba02b5c17",
+                "corpusId": "1697424"
+            },
+            "Fast dropout training": {
+                "paperId": "ec92efde21707ddf4b81f301cd58e2051c1a2443",
+                "corpusId": "10357959"
+            },
+            "On the importance of initialization and momentum in deep learning": {
+                "paperId": "aa7bfd2304201afbb19971ebde87b17e40242e91",
+                "corpusId": "10940950"
+            },
+            "Recent advances in deep learning for speech research at Microsoft": {
+                "paperId": "6bdccfe195bc49d218acc5be750aa49e41f408e4",
+                "corpusId": "13412186"
+            },
+            "Speech recognition with deep recurrent neural networks": {
+                "paperId": "4177ec52d1b80ed57f2e72b0f9a42365f1a8598d",
+                "corpusId": "206741496"
+            },
+            "Revisiting Natural Gradient for Deep Networks": {
+                "paperId": "e8f95ccfd13689f672c39dca3eccf1c484533bcc",
+                "corpusId": "15085443"
+            },
+            "ADADELTA: An Adaptive Learning Rate Method": {
+                "paperId": "8729441d734782c3ed532a7d2d9611b438c0a09a",
+                "corpusId": "7365802"
+            },
+            "ImageNet classification with deep convolutional neural networks": {
+                "paperId": "abd1c342495432171beb7ca8fd9551ef13cbd0ff",
+                "corpusId": "195908774"
+            },
+            "Improving neural networks by preventing co-adaptation of feature detectors": {
+                "paperId": "0060745e006c5f14ec326904119dca19c6545e51",
+                "corpusId": "14832074"
+            },
+            "No more pesky learning rates": {
+                "paperId": "e5a685f40338f9c2f3e68e142efa217aad16dd56",
+                "corpusId": "5886221"
+            },
+            "Non-Asymptotic Analysis of Stochastic Approximation Algorithms for Machine Learning": {
+                "paperId": "7658cecad68afc970f18cadbf6390439b17def87",
+                "corpusId": "3806935"
+            },
+            "Learning Word Vectors for Sentiment Analysis": {
+                "paperId": "1c61f9ef06fe74505775a833ff849185757199e7",
+                "corpusId": "1428702"
+            },
+            "Adaptive Subgradient Methods for Online Learning and Stochastic Optimization": {
+                "paperId": "413c1142de9d91804d6d11c67ff3fed59c9fc279",
+                "corpusId": "538820"
+            },
+            "A fast natural Newton method": {
+                "paperId": "f7cc843c318d8862357485488971b26527ef1a8e",
+                "corpusId": "2546945"
+            },
+            "Online Convex Programming and Generalized Infinitesimal Gradient Ascent": {
+                "paperId": "e1f153c6df86d1ca8ecb9561daddfe7a54f901e7",
+                "corpusId": "553962"
+            },
+            "Natural Gradient Works Efficiently in Learning": {
+                "paperId": "5a767a341364de1f75bea85e0b12ba7d3586a461",
+                "corpusId": "207585383"
+            },
+            "Acceleration of stochastic approximation by averaging": {
+                "paperId": "6dc61f37ecc552413606d8c89ffbc46ec98ed887",
+                "corpusId": "3548228"
+            },
+            "Efficient Estimations from a Slowly Convergent Robbins-Monro Process": {
+                "paperId": "2991f9bb677b71c33945e89ac0c7dcf7a36fa198",
+                "corpusId": "108279905"
+            },
+            "FUNDAMENTAL TECHNOLOGIES IN MODERN SPEECH RECOGNITION Digital Object Identifier 10.1109/MSP.2012.2205597": {
+                "paperId": "31868290adf1c000c611dfc966b514d5a34e8d23",
+                "corpusId": "58623492"
+            },
+            "Reducing the Dimensionality of Data with Neural": {
+                "paperId": "c50dca78e97e335d362d6b991ae0e1448914e9a3",
+                "corpusId": "14820265"
+            },
+            "Supporting Online Material for Reducing the Dimensionality of Data with Neural Networks": {
+                "paperId": "02552a8b40f3a82a5353f596264db71d899a9b4a",
+                "corpusId": "262637400"
+            }
+        }
+    },
+    "Layer Normalization": {
+        "seed_id": "97fb4e3d45bb098e27e0071448b6152217bd35a5",
+        "citations_by_title": {
+            "Theano: A Python framework for fast computation of mathematical expressions": {
+                "paperId": "6b570069f14c7588e066f7138e1f21af59d62e61",
+                "corpusId": "8993325"
+            },
+            "Recurrent Batch Normalization": {
+                "paperId": "952454718139dba3aafc6b3b67c4f514ac3964af",
+                "corpusId": "1107124"
+            },
+            "Weight Normalization: A Simple Reparameterization to Accelerate Training of Deep Neural Networks": {
+                "paperId": "3d2c6941a9b4608ba52b328369a3352db2092ae0",
+                "corpusId": "151231"
+            },
+            "Deep Speech 2 : End-to-End Speech Recognition in English and Mandarin": {
+                "paperId": "13497bd108d4412d02050e646235f456568cf822",
+                "corpusId": "11590585"
+            },
+            "Order-Embeddings of Images and Language": {
+                "paperId": "46b8cbcdff87b842c2c1d4a003c831f845096ba7",
+                "corpusId": "11440692"
+            },
+            "Learning Deep Structure-Preserving Image-Text Embeddings": {
+                "paperId": "b27e791e843c924ef052981b79490ab59fc0433d",
+                "corpusId": "9059202"
+            },
+            "Batch normalized recurrent neural networks": {
+                "paperId": "f95adc1d8daaa07a0c956826ec274ca9e2515ddc",
+                "corpusId": "516518"
+            },
+            "Skip-Thought Vectors": {
+                "paperId": "6e795c6e9916174ae12349f5dc3f516570c17ce8",
+                "corpusId": "9126867"
+            },
+            "Aligning Books and Movies: Towards Story-Like Visual Explanations by Watching Movies and Reading Books": {
+                "paperId": "0e6824e137847be0599bb0032e37042ed2ef5045",
+                "corpusId": "6866988"
+            },
+            "Teaching Machines to Read and Comprehend": {
+                "paperId": "d1505c6123c102e53eb19dff312cb25cea840b72",
+                "corpusId": "6203757"
+            },
+            "Path-SGD: Path-Normalized Optimization in Deep Neural Networks": {
+                "paperId": "6fe02ad979baad659f04c3376a77dbb2cb4699a5",
+                "corpusId": "2101905"
+            },
+            "DRAW: A Recurrent Neural Network For Image Generation": {
+                "paperId": "a2785f66c20fbdf30ec26c0931584c6d6a0f4fca",
+                "corpusId": "1930231"
+            },
+            "Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift": {
+                "paperId": "995c5f5e62614fcb4d2796ad2faab969da51713e",
+                "corpusId": "5808102"
+            },
+            "Adam: A Method for Stochastic Optimization": {
+                "paperId": "a6cb366736791bcccc5c8639de5a8f9636bf87e8",
+                "corpusId": "6628106"
+            },
+            "Unifying Visual-Semantic Embeddings with Multimodal Neural Language Models": {
+                "paperId": "2e36ea91a3c8fbff92be2989325531b4002e2afc",
+                "corpusId": "7732372"
+            },
+            "Sequence to Sequence Learning with Neural Networks": {
+                "paperId": "cea967b59209c6be22829699f05b8b1ac4dc092d",
+                "corpusId": "7961699"
+            },
+            "Very Deep Convolutional Networks for Large-Scale Image Recognition": {
+                "paperId": "eb42cf88027de515750f230b23b1a057dc782108",
+                "corpusId": "14124313"
+            },
+            "SemEval-2014 Task 1: Evaluation of Compositional Distributional Semantic Models on Full Sentences through Semantic Relatedness and Textual Entailment": {
+                "paperId": "11ec56898a9e7f401a2affe776b5297bd4e25025",
+                "corpusId": "16404002"
+            },
+            "Learning Phrase Representations using RNN Encoder\u2013Decoder for Statistical Machine Translation": {
+                "paperId": "0b544dfe355a5070b60986319a3f51fb45d1348e",
+                "corpusId": "5590763"
+            },
+            "Microsoft COCO: Common Objects in Context": {
+                "paperId": "71b7178df5d2b112d07e45038cb5637208659ff7",
+                "corpusId": "14113767"
+            },
+            "Generating Sequences With Recurrent Neural Networks": {
+                "paperId": "6471fd1cbc081fb3b7b5b14d6ab9eaaba02b5c17",
+                "corpusId": "1697424"
+            },
+            "Efficient Estimation of Word Representations in Vector Space": {
+                "paperId": "f6b51c8753a871dc94ff32152c00c01e94f90f09",
+                "corpusId": "5959482"
+            },
+            "Large Scale Distributed Deep Networks": {
+                "paperId": "3127190433230b3dc1abd0680bb58dced4bcd90e",
+                "corpusId": "372467"
+            },
+            "ImageNet classification with deep convolutional neural networks": {
+                "paperId": "abd1c342495432171beb7ca8fd9551ef13cbd0ff",
+                "corpusId": "195908774"
+            },
+            "IAM-OnDB - an on-line English sentence database acquired from handwritten text on a whiteboard": {
+                "paperId": "9eb7daa88879f283ae05e359d6c502a320b833c9",
+                "corpusId": "1745101"
+            },
+            "Seeing Stars: Exploiting Class Relationships for Sentiment Categorization with Respect to Rating Scales": {
+                "paperId": "6af58c061f2e4f130c3b795c21ff0c7e3903278f",
+                "corpusId": "3264224"
+            },
+            "Mining and summarizing customer reviews": {
+                "paperId": "cdcf7cb29f37ac0546961ea8a076075b9cc1f992",
+                "corpusId": "207155218"
+            },
+            "A Sentimental Education: Sentiment Analysis Using Subjectivity Summarization Based on Minimum Cuts": {
+                "paperId": "167e1359943b96b9e92ee73db1df69a1f65d731d",
+                "corpusId": "388"
+            },
+            "Natural Gradient Works Efficiently in Learning": {
+                "paperId": "5a767a341364de1f75bea85e0b12ba7d3586a461",
+                "corpusId": "207585383"
+            },
+            "FUNDAMENTAL TECHNOLOGIES IN MODERN SPEECH RECOGNITION Digital Object Identifier 10.1109/MSP.2012.2205597": {
+                "paperId": "31868290adf1c000c611dfc966b514d5a34e8d23",
+                "corpusId": "58623492"
+            },
+            "The Neural Autoregressive Distribution Estimator": {
+                "paperId": "b893e7053c9c7e266a23fb13a42261a88f650210",
+                "corpusId": "141054998"
+            },
+            "Annotating Expressions of Opinions and Emotions in Language": {
+                "paperId": "1cff7cc15555c38607016aaba24059e76b160adb",
+                "corpusId": "382842"
+            }
+        }
+    },
+    "Sequence to Sequence Learning with Neural Networks": {
+        "seed_id": "cea967b59209c6be22829699f05b8b1ac4dc092d",
+        "citations_by_title": {
+            "Overcoming the Curse of Sentence Length for Neural Machine Translation using Automatic Segmentation": {
+                "paperId": "6122c95ac6475e965bf4e120f7a588d29bb00ecc",
+                "corpusId": "353451"
+            },
+            "Neural Machine Translation by Jointly Learning to Align and Translate": {
+                "paperId": "fa72afa9b2cbc8f0d7b05d52548906610ffbb9c5",
+                "corpusId": "11212020"
+            },
+            "Learning Phrase Representations using RNN Encoder\u2013Decoder for Statistical Machine Translation": {
+                "paperId": "0b544dfe355a5070b60986319a3f51fb45d1348e",
+                "corpusId": "5590763"
+            },
+            "Fast and Robust Neural Network Joint Models for Statistical Machine Translation": {
+                "paperId": "0894b06cff1cd0903574acaa7fcf071b144ae775",
+                "corpusId": "7417943"
+            },
+            "Edinburgh\u2019s Phrase-based Machine Translation Systems for WMT-14": {
+                "paperId": "97cedf99252026f58e8154bc61d49cf885d42030",
+                "corpusId": "5028232"
+            },
+            "DeepFace: Closing the Gap to Human-Level Performance in Face Verification": {
+                "paperId": "9f2efadf66817f1b38f58b3f50c7c8f34c69d89a",
+                "corpusId": "2814088"
+            },
+            "Multilingual Distributed Representations without Word Alignment": {
+                "paperId": "c20ed3a1600122e6cf03b8ed74d3d2920ad0a8c6",
+                "corpusId": "13805769"
+            },
+            "Recurrent Continuous Translation Models": {
+                "paperId": "944a1cfd79dbfb6fef460360a0765ba790f4027a",
+                "corpusId": "12639289"
+            },
+            "Joint Language and Translation Modeling with Recurrent Neural Networks": {
+                "paperId": "167ad306d84cca2455bc50eb833454de9f2dcd02",
+                "corpusId": "5552894"
+            },
+            "Generating Sequences With Recurrent Neural Networks": {
+                "paperId": "6471fd1cbc081fb3b7b5b14d6ab9eaaba02b5c17",
+                "corpusId": "1697424"
+            },
+            "Efficient Estimation of Word Representations in Vector Space": {
+                "paperId": "f6b51c8753a871dc94ff32152c00c01e94f90f09",
+                "corpusId": "5959482"
+            },
+            "ImageNet classification with deep convolutional neural networks": {
+                "paperId": "abd1c342495432171beb7ca8fd9551ef13cbd0ff",
+                "corpusId": "195908774"
+            },
+            "On the difficulty of training recurrent neural networks": {
+                "paperId": "84069287da0a6b488b8c933f3cb5be759cb6237e",
+                "corpusId": "14650762"
+            },
+            "Sequence Transduction with Recurrent Neural Networks": {
+                "paperId": "7b4f3d0e4e2486a8d5d3f8e00549cf9a117bf88f",
+                "corpusId": "17194112"
+            },
+            "Deep Neural Networks for Acoustic Modeling in Speech Recognition": {
+                "paperId": "e33cbb25a8c7390aec6a398e36381f4f7770c283",
+                "corpusId": "7230302"
+            },
+            "LIUM\u2019s SMT Machine Translation Systems for WMT 2012": {
+                "paperId": "77b73697c8b5295a718ffef0d63a1afd489de915",
+                "corpusId": "15010710"
+            },
+            "Multi-column deep neural networks for image classification": {
+                "paperId": "398c296d0cc7f9d180f84969f8937e6d3a413796",
+                "corpusId": "2161592"
+            },
+            "Context-Dependent Pre-Trained Deep Neural Networks for Large-Vocabulary Speech Recognition": {
+                "paperId": "6658bbf68995731b2083195054ff45b4eca38b3a",
+                "corpusId": "14862572"
+            },
+            "Building high-level features using large scale unsupervised learning": {
+                "paperId": "72e93aa6767ee683de7f001fa72f1314e40a8f35",
+                "corpusId": "206741597"
+            },
+            "LIUM\u2019s SMT Machine Translation Systems for WMT 2011": {
+                "paperId": "4b36221c0b78c68cb696c64fd6032613c63f65ac",
+                "corpusId": "52853512"
+            },
+            "A Neural Probabilistic Language Model": {
+                "paperId": "6c2b28f9354f667cd5bd07afc0471d8334430da7",
+                "corpusId": "221275765"
+            },
+            "Bleu: a Method for Automatic Evaluation of Machine Translation": {
+                "paperId": "d7da009f457917aa381619facfa5ffae9329a6e9",
+                "corpusId": "11080756"
+            },
+            "Long Short-Term Memory": {
+                "paperId": "2e9d221c206e9503ceb452302d68d10e293f2a10",
+                "corpusId": "1915014"
+            },
+            "LSTM can Solve Hard Long Time Lag Problems": {
+                "paperId": "b158a006bebb619e2ea7bf0a22c27d45c5d19004",
+                "corpusId": "7452865"
+            },
+            "Learning long-term dependencies with gradient descent is difficult": {
+                "paperId": "d0be39ee052d246ae99c082a565aba25b811be2d",
+                "corpusId": "206457500"
+            },
+            "On Small Depth Threshold Circuits": {
+                "paperId": "06342ba4480526574a8d864a3c3c1719450e2463",
+                "corpusId": "60692538"
+            },
+            "Backpropagation Through Time: What It Does and How to Do It": {
+                "paperId": "1a3d22599028a05669e884f3eaf19a342e190a87",
+                "corpusId": "18470994"
+            },
+            "Learning representations by back-propagating errors": {
+                "paperId": "052b1d8ce63b07fec3de9dbb583772d860b7c769",
+                "corpusId": "205001834"
+            },
+            "LSTM Neural Networks for Language Modeling": {
+                "paperId": "f9a1b3850dfd837793743565a8af95973d395a4e",
+                "corpusId": "18939716"
+            },
+            "Statistical Language Models Based on Neural Networks": {
+                "paperId": "96364af2d208ea75ca3aeb71892d2f7ce7326b55",
+                "corpusId": "68116583"
+            },
+            "I and J": {
+                "paperId": "3d2218b17e7898a222e5fc2079a3f1531990708f",
+                "corpusId": "124633341"
+            },
+            "Recurrent neural network based language model": {
+                "paperId": "9819b600a828a57e1cde047bbe710d3446b30da5",
+                "corpusId": "17048224"
+            },
+            "Gradient Flow in Recurrent Nets: the Difficulty of Learning Long-Term Dependencies": {
+                "paperId": "2e5f2b57f4c476dd69dc22ccdf547e48f40a994c",
+                "corpusId": "17278462"
+            },
+            "IBM Research Report Bleu: a Method for Automatic Evaluation of Machine Translation": {
+                "paperId": "9eb458fa2e754ba1b927272aa389115c95fc55f4",
+                "corpusId": "268081888"
+            },
+            "Gradient-based learning applied to document recognition": {
+                "paperId": "162d958ff885f1462aeda91cd72582323fd6a1f4",
+                "corpusId": "14542261"
+            },
+            "Untersuchungen zu dynamischen neuronalen Netzen": {
+                "paperId": "3f3d13e95c25a8f6a753e38dfce88885097cbd43",
+                "corpusId": "60091947"
+            },
+            "Connectionist Temporal Classi\ufb01cation: Labelling Unsegmented Sequence Data with Recurrent Neural Networks": {
+                "paperId": "261a056f8b21918e8616a429b2df6e1d5d33be41",
+                "corpusId": "9901844"
+            },
+            "Connectionist Temporal Classi\ufb01cation: Labelling Unsegmented Sequences with Recurrent Neural Networks": {
+                "paperId": "845ee9838c1f5bf63b7db2c95ec5d27af14a4e02",
+                "corpusId": "264252063"
+            }
+        }
+    },
+    "Neural Machine Translation by Jointly Learning to Align and Translate": {
+        "seed_id": "fa72afa9b2cbc8f0d7b05d52548906610ffbb9c5",
+        "citations_by_title": {
+            "Sequence to Sequence Learning with Neural Networks": {
+                "paperId": "cea967b59209c6be22829699f05b8b1ac4dc092d",
+                "corpusId": "7961699"
+            },
+            "On the Properties of Neural Machine Translation: Encoder\u2013Decoder Approaches": {
+                "paperId": "1eb09fecd75eb27825dce4f964b97f4f5cc399d7",
+                "corpusId": "11336213"
+            },
+            "Overcoming the Curse of Sentence Length for Neural Machine Translation using Automatic Segmentation": {
+                "paperId": "6122c95ac6475e965bf4e120f7a588d29bb00ecc",
+                "corpusId": "353451"
+            },
+            "Learning Phrase Representations using RNN Encoder\u2013Decoder for Statistical Machine Translation": {
+                "paperId": "0b544dfe355a5070b60986319a3f51fb45d1348e",
+                "corpusId": "5590763"
+            },
+            "Fast and Robust Neural Network Joint Models for Statistical Machine Translation": {
+                "paperId": "0894b06cff1cd0903574acaa7fcf071b144ae775",
+                "corpusId": "7417943"
+            },
+            "Statistical Machine Translation": {
+                "paperId": "68514af8a4ab5c8a10a6fb9e1f61948a94d90281",
+                "corpusId": "7721910"
+            },
+            "How to Construct Deep Recurrent Neural Networks": {
+                "paperId": "533ee188324b833e059cb59b654e6160776d5812",
+                "corpusId": "1870512"
+            },
+            "Multilingual Distributed Representations without Word Alignment": {
+                "paperId": "c20ed3a1600122e6cf03b8ed74d3d2920ad0a8c6",
+                "corpusId": "13805769"
+            },
+            "Hybrid speech recognition with Deep Bidirectional LSTM": {
+                "paperId": "1149888d75af4ed5dffc25731b875651c3ccdeb2",
+                "corpusId": "3338763"
+            },
+            "Recurrent Continuous Translation Models": {
+                "paperId": "944a1cfd79dbfb6fef460360a0765ba790f4027a",
+                "corpusId": "12639289"
+            },
+            "Generating Sequences With Recurrent Neural Networks": {
+                "paperId": "6471fd1cbc081fb3b7b5b14d6ab9eaaba02b5c17",
+                "corpusId": "1697424"
+            },
+            "Maxout Networks": {
+                "paperId": "b7b915d508987b73b61eccd2b237e7ed099a2d29",
+                "corpusId": "10600578"
+            },
+            "ADADELTA: An Adaptive Learning Rate Method": {
+                "paperId": "8729441d734782c3ed532a7d2d9611b438c0a09a",
+                "corpusId": "7365802"
+            },
+            "Continuous Space Translation Models for Phrase-Based Statistical Machine Translation": {
+                "paperId": "5f08df805f14baa826dbddcb002277b15d3f1556",
+                "corpusId": "8608051"
+            },
+            "Theano: new features and speed improvements": {
+                "paperId": "855d0f722d75cc56a66a00ede18ace96bafee6bd",
+                "corpusId": "8180128"
+            },
+            "On the difficulty of training recurrent neural networks": {
+                "paperId": "84069287da0a6b488b8c933f3cb5be759cb6237e",
+                "corpusId": "14650762"
+            },
+            "Sequence Transduction with Recurrent Neural Networks": {
+                "paperId": "7b4f3d0e4e2486a8d5d3f8e00549cf9a117bf88f",
+                "corpusId": "17194112"
+            },
+            "The conference paper": {
+                "paperId": "bd5fc28c7356915ec71abafbe86b7596c60720aa",
+                "corpusId": "144107296"
+            },
+            "Domain Adaptation via Pseudo In-Domain Data Selection": {
+                "paperId": "396aabd694da04cdb846cb724ca9f866f345cbd5",
+                "corpusId": "10766958"
+            },
+            "Continuous Space Language Models for Statistical Machine Translation": {
+                "paperId": "d4a258df43cc14e46988de9a4a7b2f0ea817529b",
+                "corpusId": "1274371"
+            },
+            "Statistical Phrase-Based Translation": {
+                "paperId": "a4b828609b60b06e61bea7a4029cc9e1cad5df87",
+                "corpusId": "8884845"
+            },
+            "A Neural Probabilistic Language Model": {
+                "paperId": "6c2b28f9354f667cd5bd07afc0471d8334430da7",
+                "corpusId": "221275765"
+            },
+            "Bidirectional recurrent neural networks": {
+                "paperId": "e23c34414e66118ecd9b08cf0cd4d016f59b0b85",
+                "corpusId": "18375389"
+            },
+            "Long Short-Term Memory": {
+                "paperId": "2e9d221c206e9503ceb452302d68d10e293f2a10",
+                "corpusId": "1915014"
+            },
+            "Recursive Hetero-associative Memories for Translation": {
+                "paperId": "73c2a58c936ba2d269491548ef32644c5e982199",
+                "corpusId": "14654498"
+            },
+            "Biological and Artificial Computation: From Neuroscience to Technology": {
+                "paperId": "9d6c43ad7f4cf7ebcd4245510df2880f3d3b0964",
+                "corpusId": "21245146"
+            },
+            "Learning long-term dependencies with gradient descent is difficult": {
+                "paperId": "d0be39ee052d246ae99c082a565aba25b811be2d",
+                "corpusId": "206457500"
+            },
+            "Audio Chord Recognition with Recurrent Neural Networks": {
+                "paperId": "e27d81521dc4e8b6ea93947c05ffccf06784f569",
+                "corpusId": "8624290"
+            },
+            "Untersuchungen zu dynamischen neuronalen Netzen": {
+                "paperId": "3f3d13e95c25a8f6a753e38dfce88885097cbd43",
+                "corpusId": "60091947"
+            }
+        }
+    },
+    "Playing Atari with Deep Reinforcement Learning": {
+        "seed_id": "2319a491378867c7049b3da055c5df60e1671158",
+        "citations_by_title": {
+            "A Neuroevolution Approach to General Atari Game Playing": {
+                "paperId": "cf6c64b87459a3164ad54128fa085328c401c09f",
+                "corpusId": "11352605"
+            },
+            "Bayesian Learning of Recursively Factored Environments": {
+                "paperId": "7c9e3b33ea2522e86b4ebf586e6371d49d3ef89f",
+                "corpusId": "2585247"
+            },
+            "New types of deep neural network learning for speech recognition and related applications: an overview": {
+                "paperId": "eb9243a3b98a819539ad57b7b4f05b969510d075",
+                "corpusId": "13953660"
+            },
+            "Speech recognition with deep recurrent neural networks": {
+                "paperId": "4177ec52d1b80ed57f2e72b0f9a42365f1a8598d",
+                "corpusId": "206741496"
+            },
+            "Sketch-Based Linear Value Function Approximation": {
+                "paperId": "be3bd82d18cabd3ed78105dcaca760fef26f4ac7",
+                "corpusId": "3002788"
+            },
+            "ImageNet classification with deep convolutional neural networks": {
+                "paperId": "abd1c342495432171beb7ca8fd9551ef13cbd0ff",
+                "corpusId": "195908774"
+            },
+            "Pedestrian Detection with Unsupervised Multi-stage Feature Learning": {
+                "paperId": "a1306ce652f556fbb9e794d91084a29294298e6d",
+                "corpusId": "1342687"
+            },
+            "Investigating Contingency Awareness Using Atari 2600 Games": {
+                "paperId": "3689115fa21e16d50030aaec01822af996f3e4e7",
+                "corpusId": "2554656"
+            },
+            "The Arcade Learning Environment: An Evaluation Platform for General Agents": {
+                "paperId": "f82e4ff4f003581330338aaae71f60316e58dd26",
+                "corpusId": "1552061"
+            },
+            "Context-Dependent Pre-Trained Deep Neural Networks for Large-Vocabulary Speech Recognition": {
+                "paperId": "6658bbf68995731b2083195054ff45b4eca38b3a",
+                "corpusId": "14862572"
+            },
+            "Deep auto-encoder neural networks in reinforcement learning": {
+                "paperId": "36086ff255207cc1adb818c4d0cd62287d437d38",
+                "corpusId": "1240464"
+            },
+            "Toward Off-Policy Learning Control with Function Approximation": {
+                "paperId": "6ab7795306d04ff9bc5121e446eb5fc624487ace",
+                "corpusId": "14941137"
+            },
+            "Rectified Linear Units Improve Restricted Boltzmann Machines": {
+                "paperId": "a538b05ebb01a40323997629e171c91aa28b8e2f",
+                "corpusId": "15539264"
+            },
+            "Convergent Temporal-Difference Learning with Arbitrary Smooth Function Approximation": {
+                "paperId": "e1262319851d78ffa40c89d98d8afba10d0aec2d",
+                "corpusId": "3232170"
+            },
+            "What is the best multi-stage architecture for object recognition?": {
+                "paperId": "1f88427d7aa8225e47f946ac41a0667d7b69ac52",
+                "corpusId": "206769720"
+            },
+            "Learning multiple layers of representation": {
+                "paperId": "0fe5c42e0821f6580eb8ab4c4261771f0d0472bd",
+                "corpusId": "15066318"
+            },
+            "Neural Fitted Q Iteration - First Experiences with a Data Efficient Neural Reinforcement Learning Method": {
+                "paperId": "282001869bd502c7917db8b32b75593addfbbc68",
+                "corpusId": "6921329"
+            },
+            "Reinforcement Learning with Factored States and Actions": {
+                "paperId": "60922d2ca51acbebff794f4c43f6daadf4b8d103",
+                "corpusId": "17045473"
+            },
+            "Reinforcement Learning: : An Introduction": {
+                "paperId": "8c63689611fd1bf40d6a5ca14ba730ca7e62d283",
+                "corpusId": "195937764"
+            },
+            "Convolutional networks for images, speech, and time series": {
+                "paperId": "563e821bb5ea825efb56b77484f5287f08cf3753",
+                "corpusId": "6916627"
+            },
+            "Why did TD-Gammon Work?": {
+                "paperId": "9773fa4a86987f76a0eaf72c67ab6acd55d20a9f",
+                "corpusId": "7378368"
+            },
+            "Residual Algorithms: Reinforcement Learning with Function Approximation": {
+                "paperId": "f518bffb712a298bff18248c67f6fc0181018ae6",
+                "corpusId": "621595"
+            },
+            "Temporal Difference Learning and TD-Gammon": {
+                "paperId": "5ed59f49c1bb7de06cfa2a9467d5efb535103277",
+                "corpusId": "6023746"
+            },
+            "Prioritized Sweeping: Reinforcement Learning with Less Data and Less Time": {
+                "paperId": "e21956fdbc06204db7984aacea09db7eda6355ad",
+                "corpusId": "38901226"
+            },
+            "Q-learning": {
+                "paperId": "03b7e51c52084ac1db5118342a00b5fbcfc587aa",
+                "corpusId": "208910339"
+            },
+            "Machine Learning for Aerial Image Labeling": {
+                "paperId": "6eabf6e67c29778265bc9fef3b58b2756c739c83",
+                "corpusId": "114890196"
+            },
+            "Actor-Critic Reinforcement Learning with Energy-Based Policies": {
+                "paperId": "b55dcba008184f55741abc3ab99eeff111d00151",
+                "corpusId": "7756162"
+            },
+            "Reinforcement Learning: An Introduction": {
+                "paperId": "97efafdb4a3942ab3efba53ded7413199f79c054",
+                "corpusId": "60035920"
+            },
+            "An Analysis of Temporal-Difference Learning with Function Approximation": {
+                "paperId": "24da3011dfdefbdcee20d12ca3c2a348ad6f3aad",
+                "corpusId": "7353554"
+            },
+            "Reinforcement Learning for Robots Using Neural Networks": {
+                "paperId": "bf485a9a4ad17212d05fce564d5a6d4eaf840df4",
+                "corpusId": "60875658"
+            }
+        }
+    },
+    "Generative Adversarial Nets": {
+        "seed_id": "86ee1835a56722b76564119437070782fc90eb19",
+        "citations_by_title": {
+            "Neural Variational Inference and Learning in Belief Networks": {
+                "paperId": "331f0fb3b6176c6e463e0401025b04f6ace9ccd3",
+                "corpusId": "1981188"
+            },
+            "Stochastic Backpropagation and Approximate Inference in Deep Generative Models": {
+                "paperId": "484ad17c926292fbe0d5211540832a8c8a8e958b",
+                "corpusId": "16895865"
+            },
+            "Intriguing properties of neural networks": {
+                "paperId": "d891dc72cbd40ffaeefdc79f2e7afe1e530a23ad",
+                "corpusId": "604334"
+            },
+            "Auto-Encoding Variational Bayes": {
+                "paperId": "5f5dc5b9a2ba710937e2c413b37b053cd673df02",
+                "corpusId": "216078090"
+            },
+            "Multi-Prediction Deep Boltzmann Machines": {
+                "paperId": "5656fa5aa6e1beeb98703fc53ec112ad227c49ca",
+                "corpusId": "6442575"
+            },
+            "Deep AutoRegressive Networks": {
+                "paperId": "695a2c95eacdbccb7a73d2f1e90e7b35b4b3d864",
+                "corpusId": "14576846"
+            },
+            "Pylearn2: a machine learning research library": {
+                "paperId": "2f7ad26514bce4df6c8ebc42c90383ef3a974df4",
+                "corpusId": "2172854"
+            },
+            "Deep Generative Stochastic Networks Trainable by Backprop": {
+                "paperId": "5ffa8bf1bf3e39227be28de4ff6915d3b21eb52d",
+                "corpusId": "9494295"
+            },
+            "Generalized Denoising Auto-Encoders as Generative Models": {
+                "paperId": "d9704f8119d6ba748230b4f2ad59f0e8c64fdfb0",
+                "corpusId": "5554756"
+            },
+            "Maxout Networks": {
+                "paperId": "b7b915d508987b73b61eccd2b237e7ed099a2d29",
+                "corpusId": "10600578"
+            },
+            "ImageNet classification with deep convolutional neural networks": {
+                "paperId": "abd1c342495432171beb7ca8fd9551ef13cbd0ff",
+                "corpusId": "195908774"
+            },
+            "Theano: new features and speed improvements": {
+                "paperId": "855d0f722d75cc56a66a00ede18ace96bafee6bd",
+                "corpusId": "8180128"
+            },
+            "Deep Neural Networks for Acoustic Modeling in Speech Recognition": {
+                "paperId": "e33cbb25a8c7390aec6a398e36381f4f7770c283",
+                "corpusId": "7230302"
+            },
+            "Better Mixing via Deep Representations": {
+                "paperId": "d0965d8f9842f2db960b36b528107ca362c00d1a",
+                "corpusId": "1334653"
+            },
+            "Improving neural networks by preventing co-adaptation of feature detectors": {
+                "paperId": "0060745e006c5f14ec326904119dca19c6545e51",
+                "corpusId": "14832074"
+            },
+            "A Generative Process for Contractive Auto-Encoders": {
+                "paperId": "6bf0414dae4f10c7e54fb9e5e8af5d0d0cab290b",
+                "corpusId": "122643575"
+            },
+            "Quickly Generating Representative Samples from an RBM-Derived Process": {
+                "paperId": "d1c67346e46b4d0067b3c2e5d3b959a8bc24b28c",
+                "corpusId": "907908"
+            },
+            "Deep Sparse Rectifier Neural Networks": {
+                "paperId": "67107f78a84bdb2411053cb54e94fa226eea6d8e",
+                "corpusId": "2239473"
+            },
+            "Noise-contrastive estimation: A new estimation principle for unnormalized statistical models": {
+                "paperId": "e3ce36b9deb47aa6bb2aa19c4bfa71283b505025",
+                "corpusId": "15816723"
+            },
+            "What is the best multi-stage architecture for object recognition?": {
+                "paperId": "1f88427d7aa8225e47f946ac41a0667d7b69ac52",
+                "corpusId": "206769720"
+            },
+            "Deep Boltzmann Machines": {
+                "paperId": "ddc45fad8d15771d9f1f8579331458785b2cdd93",
+                "corpusId": "877639"
+            },
+            "Extracting and composing robust features with denoising autoencoders": {
+                "paperId": "843959ffdccf31c6694d135fad07425924f785b1",
+                "corpusId": "207168299"
+            },
+            "Training restricted Boltzmann machines using approximations to the likelihood gradient": {
+                "paperId": "73d6a26f407db77506959fdf3f7b853e44f3844a",
+                "corpusId": "7330145"
+            },
+            "Learning Generative Models via Discriminative Approaches": {
+                "paperId": "23b80dc704e25cf52b5a14935002fc083ce9c317",
+                "corpusId": "226145"
+            },
+            "A Fast Learning Algorithm for Deep Belief Nets": {
+                "paperId": "8978cf7574ceb35f4c3096be768c7547b28a35d0",
+                "corpusId": "2309950"
+            },
+            "Estimation of Non-Normalized Statistical Models by Score Matching": {
+                "paperId": "9966e890f2eedb4577e11b9d5a66380a4d9341fe",
+                "corpusId": "1152227"
+            },
+            "On the convergence of markovian stochastic algorithms with rapidly decreasing ergodicity rates": {
+                "paperId": "ca9b21e84ffc7e193d1b3bb45fb7c4e48226b59e",
+                "corpusId": "15419929"
+            },
+            "The \"wake-sleep\" algorithm for unsupervised neural networks.": {
+                "paperId": "6dd01cd9c17d1491ead8c9f97597fbc61dead8ea",
+                "corpusId": "871473"
+            },
+            "Learning Factorial Codes by Predictability Minimization": {
+                "paperId": "675d381653da0d2825ae37ab06069a1525fafb79",
+                "corpusId": "2142508"
+            },
+            "Information processing in dynamical systems: foundations of harmony theory": {
+                "paperId": "4f7476037408ac3d993f5088544aab427bc319c1",
+                "corpusId": "533055"
+            },
+            "Learning Multiple Layers of Features from Tiny Images": {
+                "paperId": "5d90f06bb70a0a3dced62413346235c02b1aa086",
+                "corpusId": "18268744"
+            },
+            "Learning Deep Architectures for AI": {
+                "paperId": "d04d6db5f0df11d0cff57ec7e15134990ac07a4f",
+                "corpusId": "207178999"
+            },
+            "Gradient-based learning applied to document recognition": {
+                "paperId": "162d958ff885f1462aeda91cd72582323fd6a1f4",
+                "corpusId": "14542261"
+            }
+        }
+    },
+    "Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift": {
+        "seed_id": "995c5f5e62614fcb4d2796ad2faab969da51713e",
+        "citations_by_title": {
+            "MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications": {
+                "paperId": "3647d6d0f151dc05626449ee09cc7bce55be497e",
+                "corpusId": "12670695"
+            },
+            "Xception: Deep Learning with Depthwise Separable Convolutions": {
+                "paperId": "5b6ec746d309b165f9f9def873a2375b6fb40f3d",
+                "corpusId": "2375110"
+            },
+            "Densely Connected Convolutional Networks": {
+                "paperId": "5694e46284460a648fe29117cbc55f6c9be3fa3c",
+                "corpusId": "9433631"
+            },
+            "FractalNet: Ultra-Deep Neural Networks without Residuals": {
+                "paperId": "d0156126edbfc524c8d108bdc0cf811cfe3129aa",
+                "corpusId": "3067546"
+            },
+            "Understanding and Improving Convolutional Neural Networks via Concatenated Rectified Linear Units": {
+                "paperId": "0e2b3faed39561f712c3b14a08c7c36272d9857a",
+                "corpusId": "7986092"
+            },
+            "Deep Residual Learning for Image Recognition": {
+                "paperId": "2c03df8b48bf3fa39054345bafabfeff15bfd11d",
+                "corpusId": "206594692"
+            },
+            "Multi-Scale Context Aggregation by Dilated Convolutions": {
+                "paperId": "7f5fc84819c0cf94b771fe15141f65b123f7b8ec",
+                "corpusId": "17127188"
+            },
+            "Natural Neural Networks": {
+                "paperId": "941e30afcae061a115301c65a1afe49d8856f14e",
+                "corpusId": "9882208"
+            },
+            "You Only Look Once: Unified, Real-Time Object Detection": {
+                "paperId": "f8e79ac0ea341056ef20f2616628b3e964764cfd",
+                "corpusId": "206594738"
+            },
+            "Delving Deep into Rectifiers: Surpassing Human-Level Performance on ImageNet Classification": {
+                "paperId": "d6f2f611da110b5b5061731be3fc4c7f45d8ee23",
+                "corpusId": "13740328"
+            },
+            "Deep Image: Scaling up Image Recognition": {
+                "paperId": "f5ce3abf942cdd685fb0f290f3e741f7b4749f0a",
+                "corpusId": "7480530"
+            },
+            "Striving for Simplicity: The All Convolutional Net": {
+                "paperId": "33af9298e5399269a12d4b9901492fe406af62b4",
+                "corpusId": "12998557"
+            },
+            "Parallel training of Deep Neural Networks with Natural Gradient and Parameter Averaging": {
+                "paperId": "4030a62e75313110dc4a4c78483f4459dc4526bc",
+                "corpusId": "5464187"
+            },
+            "Going deeper with convolutions": {
+                "paperId": "e15cf50aa89fee8535703b9f9512fca5bfc43327",
+                "corpusId": "206592484"
+            },
+            "Very Deep Convolutional Networks for Large-Scale Image Recognition": {
+                "paperId": "eb42cf88027de515750f230b23b1a057dc782108",
+                "corpusId": "14124313"
+            },
+            "ImageNet Large Scale Visual Recognition Challenge": {
+                "paperId": "e74f9b7f8eec6ba4704c206b93bc8079af3da4bd",
+                "corpusId": "2930547"
+            },
+            "Mean-normalized stochastic gradient for large-scale deep learning": {
+                "paperId": "04f16203f1e66e8d2151dc359fd0405a0f482da7",
+                "corpusId": "15158069"
+            },
+            "Exact solutions to the nonlinear dynamics of learning in deep linear neural networks": {
+                "paperId": "99c970348b8f70ce23d6641e201904ea49266b6e",
+                "corpusId": "17272965"
+            },
+            "On the importance of initialization and momentum in deep learning": {
+                "paperId": "aa7bfd2304201afbb19971ebde87b17e40242e91",
+                "corpusId": "10940950"
+            },
+            "Knowledge Matters: Importance of Prior Information for Optimization": {
+                "paperId": "523b12db4004b89284387f978c2af8ae0e79d54b",
+                "corpusId": "2745955"
+            },
+            "Large Scale Distributed Deep Networks": {
+                "paperId": "3127190433230b3dc1abd0680bb58dced4bcd90e",
+                "corpusId": "372467"
+            },
+            "ImageNet classification with deep convolutional neural networks": {
+                "paperId": "abd1c342495432171beb7ca8fd9551ef13cbd0ff",
+                "corpusId": "195908774"
+            },
+            "On the difficulty of training recurrent neural networks": {
+                "paperId": "84069287da0a6b488b8c933f3cb5be759cb6237e",
+                "corpusId": "14650762"
+            },
+            "Large Scale Visual Recognition": {
+                "paperId": "e952c51379567889753b2df005107520207ab337",
+                "corpusId": "37861944"
+            },
+            "Deep Learning Made Easier by Linear Transformations in Perceptrons": {
+                "paperId": "b8ef1230a5cc9ea7cd8358f1ae7d1af97813ba14",
+                "corpusId": "2204994"
+            },
+            "A Convergence Analysis of Log-Linear Training": {
+                "paperId": "d530d20a4d5c09ff2e51e31e4980d1675a9be2ba",
+                "corpusId": "1248302"
+            },
+            "Adaptive Subgradient Methods for Online Learning and Stochastic Optimization": {
+                "paperId": "413c1142de9d91804d6d11c67ff3fed59c9fc279",
+                "corpusId": "538820"
+            },
+            "Rectified Linear Units Improve Restricted Boltzmann Machines": {
+                "paperId": "a538b05ebb01a40323997629e171c91aa28b8e2f",
+                "corpusId": "15539264"
+            },
+            "Understanding the difficulty of training deep feedforward neural networks": {
+                "paperId": "ea9d2a2b4ce11aaf85136840c65f3bc9c03ab649",
+                "corpusId": "5575601"
+            },
+            "Nonlinear image representation using divisive normalization": {
+                "paperId": "25d92fe0ab92ae57bd8fed87c95fa9a207ec61aa",
+                "corpusId": "7415524"
+            },
+            "Optimization": {
+                "paperId": "809a6ea7ae1da7941b425b5bcd654ec479b4d90d",
+                "corpusId": "219596500"
+            },
+            "Critical Points of the Singular Value Decomposition": {
+                "paperId": "a29556b09f14253b4b52cd8375a3e08202b40da3",
+                "corpusId": "207053758"
+            },
+            "Improving predictive inference under covariate shift by weighting the log-likelihood function": {
+                "paperId": "235723a15c86c369c99a42e7b666dfe156ad2cba",
+                "corpusId": "9238949"
+            },
+            "Independent component analysis: algorithms and applications": {
+                "paperId": "577d19a115f9ef6f002483fcf88adbb3b5479556",
+                "corpusId": "11959218"
+            },
+            "Dropout: a simple way to prevent neural networks from overfitting": {
+                "paperId": "34f25a8704614163c4095b3ee2fc969b60de4698",
+                "corpusId": "6844431"
+            },
+            "Efficient BackProp": {
+                "paperId": "b87274e6d9aa4e6ba5148898aa92941617d2b6ed",
+                "corpusId": "20158889"
+            },
+            "A Literature Survey on Domain Adaptation of Statistical Classifiers": {
+                "paperId": "73e1644ad4aab9e11c1e46eea513141c4930602d",
+                "corpusId": "1145283"
+            },
+            "GradientBased Learning Applied to Document Recognition": {
+                "paperId": "f42b865e20e61a954239f421b42007236e671f19",
+                "corpusId": "64294544"
+            },
+            "Gradient-based learning applied to document recognition": {
+                "paperId": "162d958ff885f1462aeda91cd72582323fd6a1f4",
+                "corpusId": "14542261"
+            }
+        }
+    },
+    "Mask R-CNN": {
+        "seed_id": "1a0912bb76777469295bb2c059faee907e7f3258",
+        "citations_by_title": {
+            "Pixelwise Instance Segmentation with a Dynamically Instantiated Network": {
+                "paperId": "27b34c8448426cc08165c17f4fd72459ca157fdd",
+                "corpusId": "689238"
+            },
+            "Towards Accurate Multi-person Pose Estimation in the Wild": {
+                "paperId": "76ae2eb617d2ad12edf6b84539fce6e5cf76b00e",
+                "corpusId": "5267028"
+            },
+            "Beyond Skip Connections: Top-Down Modulation for Object Detection": {
+                "paperId": "47a1fa91816f50266aef3c31b6bd38895df63b00",
+                "corpusId": "13123786"
+            },
+            "Feature Pyramid Networks for Object Detection": {
+                "paperId": "2a94c84383ee3de5e6211d43d16e7de387f68878",
+                "corpusId": "10716717"
+            },
+            "Shape-aware Instance Segmentation": {
+                "paperId": "888ddf8f543b2e0794f4a021d80a23d4eb05c8af",
+                "corpusId": "10367240"
+            },
+            "Speed/Accuracy Trade-Offs for Modern Convolutional Object Detectors": {
+                "paperId": "a312a573ef81793d56401e932ef6c9498791a3d1",
+                "corpusId": "206595627"
+            },
+            "Realtime Multi-person 2D Pose Estimation Using Part Affinity Fields": {
+                "paperId": "dfad8f616bd2a05c8cae5f61060f743f966ece85",
+                "corpusId": "16224674"
+            },
+            "Deep Watershed Transform for Instance Segmentation": {
+                "paperId": "b6066637ab60a75731118659778d9616f6d3be4c",
+                "corpusId": "18195291"
+            },
+            "InstanceCut: From Edges to Instances with MultiCut": {
+                "paperId": "1226a8943e813bf60035bd59442bea7de83cbc3d",
+                "corpusId": "8334461"
+            },
+            "Fully Convolutional Instance-Aware Semantic Segmentation": {
+                "paperId": "0366b36006a6b37c673a42aad03ae77e8ef6ecda",
+                "corpusId": "14350475"
+            },
+            "Aggregated Residual Transformations for Deep Neural Networks": {
+                "paperId": "f6e0856b4a9199fa968ac00da612a9407b5cb85c",
+                "corpusId": "8485068"
+            },
+            "R-FCN: Object Detection via Region-based Fully Convolutional Networks": {
+                "paperId": "b724c3f7ff395235b62537203ddeb710f0eb27bb",
+                "corpusId": "7428689"
+            },
+            "Training Region-Based Object Detectors with Online Hard Example Mining": {
+                "paperId": "63333669bcf694aba2e1928f6060ab1d6a5161fe",
+                "corpusId": "2843566"
+            },
+            "The Cityscapes Dataset for Semantic Urban Scene Understanding": {
+                "paperId": "c8c494ee5488fe20e0aa01bddf3fc4632086d654",
+                "corpusId": "502946"
+            },
+            "Instance-Sensitive Fully Convolutional Networks": {
+                "paperId": "bac287c2da6c02a2de88f8e0ea8d45f77de4670d",
+                "corpusId": "7153187"
+            },
+            "Learning to Refine Object Segments": {
+                "paperId": "361b19d2c00d086fa8ef860374f5e1d862fd2f30",
+                "corpusId": "15278025"
+            },
+            "Inception-v4, Inception-ResNet and the Impact of Residual Connections on Learning": {
+                "paperId": "b5c26ab8767d046cb6e32d959fdf726aee89bb62",
+                "corpusId": "1023605"
+            },
+            "Convolutional Pose Machines": {
+                "paperId": "864e7db59f2ccfec1ee9f6eba79566ac7b0634df",
+                "corpusId": "163946"
+            },
+            "Instance-Aware Semantic Segmentation via Multi-task Network Cascades": {
+                "paperId": "1e9b1f6061ef779e3ad0819c2832a29168eaeb9d",
+                "corpusId": "8510667"
+            },
+            "Inside-Outside Net: Detecting Objects in Context with Skip Pooling and Recurrent Neural Networks": {
+                "paperId": "adc4e63b58cf4092420533fd877b8c29f8e2ec1d",
+                "corpusId": "7148278"
+            },
+            "Deep Residual Learning for Image Recognition": {
+                "paperId": "2c03df8b48bf3fa39054345bafabfeff15bfd11d",
+                "corpusId": "206594692"
+            },
+            "Learning to Segment Object Candidates": {
+                "paperId": "6b8d0df903496699e52b4daee5d1815b7b784cf7",
+                "corpusId": "140529"
+            },
+            "Spatial Transformer Networks": {
+                "paperId": "dbb6ded623159c867fbeca0772db7b2eb9489523",
+                "corpusId": "6099034"
+            },
+            "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks": {
+                "paperId": "424561d8585ff8ebce7d5d07de8dbf7aae5e7270",
+                "corpusId": "10328909"
+            },
+            "Fast R-CNN": {
+                "paperId": "7ffdbc358b63378f07311e883dddacc9faeeaf4b",
+                "corpusId": "206770307"
+            },
+            "What Makes for Effective Detection Proposals?": {
+                "paperId": "6c016579af5becc230fb9efc1f885f2afa65a46e",
+                "corpusId": "14742646"
+            },
+            "Convolutional feature masking for joint object and stuff segmentation": {
+                "paperId": "3ad998a9b2c071c4a1971048f8a2d754530f08e8",
+                "corpusId": "206593096"
+            },
+            "Hypercolumns for object segmentation and fine-grained localization": {
+                "paperId": "428db42e86f6d51292e23fa57797e35cecd0e2ee",
+                "corpusId": "12225766"
+            },
+            "Fully convolutional networks for semantic segmentation": {
+                "paperId": "6fc6803df5f9ae505cae5b2f178ade4062c768d0",
+                "corpusId": "1629541"
+            },
+            "Deformable part models are convolutional neural networks": {
+                "paperId": "244bae85fda807361a51d4b26a14ecb2b2f8776b",
+                "corpusId": "12047073"
+            },
+            "Simultaneous Detection and Segmentation": {
+                "paperId": "342786659379879f58bf5c4ff43c84c83a6a7389",
+                "corpusId": "9272368"
+            },
+            "Multiscale Combinatorial Grouping": {
+                "paperId": "83d1118c2b2995a3e0cf9b6159e4c59e85cabb7e",
+                "corpusId": "4517687"
+            },
+            "Spatial Pyramid Pooling in Deep Convolutional Networks for Visual Recognition": {
+                "paperId": "cbb19236820a96038d000dc629225d36e0b6294a",
+                "corpusId": "436933"
+            },
+            "2D Human Pose Estimation: New Benchmark and State of the Art Analysis": {
+                "paperId": "da8d53f9a85b40a695585aa461286e373c6b74d4",
+                "corpusId": "206592419"
+            },
+            "Microsoft COCO: Common Objects in Context": {
+                "paperId": "71b7178df5d2b112d07e45038cb5637208659ff7",
+                "corpusId": "14113767"
+            },
+            "Rich Feature Hierarchies for Accurate Object Detection and Semantic Segmentation": {
+                "paperId": "2f4df08d9072fc2ac181b7fced6a245315ce05c8",
+                "corpusId": "215827080"
+            },
+            "Selective Search for Object Recognition": {
+                "paperId": "9b223c8a31e0ea1d1f2c9787ffd8416dfc90c912",
+                "corpusId": "216077384"
+            },
+            "ImageNet classification with deep convolutional neural networks": {
+                "paperId": "abd1c342495432171beb7ca8fd9551ef13cbd0ff",
+                "corpusId": "195908774"
+            },
+            "Rectified Linear Units Improve Restricted Boltzmann Machines": {
+                "paperId": "a538b05ebb01a40323997629e171c91aa28b8e2f",
+                "corpusId": "15539264"
+            },
+            "Backpropagation Applied to Handwritten Zip Code Recognition": {
+                "paperId": "a8e8f3c8d4418c8d62e306538c9c1292635e9d27",
+                "corpusId": "41312633"
+            }
+        }
+    },
+    "U-Net: Convolutional Networks for Biomedical Image Segmentation": {
+        "seed_id": "6364fdaa0a0eccd823a779fcdd489173f938e91a",
+        "citations_by_title": {
+            "Delving Deep into Rectifiers: Surpassing Human-Level Performance on ImageNet Classification": {
+                "paperId": "d6f2f611da110b5b5061731be3fc4c7f45d8ee23",
+                "corpusId": "13740328"
+            },
+            "Fully Convolutional Multi-Class Multiple Instance Learning": {
+                "paperId": "3b2ccc97f1433cf8750a2ad5a05555ccd10e9cdf",
+                "corpusId": "6679306"
+            },
+            "Learning to generate chairs with convolutional neural networks": {
+                "paperId": "b437b5a0445f17b06b12791bc48aeb8110e95dc5",
+                "corpusId": "15960930"
+            },
+            "Hypercolumns for object segmentation and fine-grained localization": {
+                "paperId": "428db42e86f6d51292e23fa57797e35cecd0e2ee",
+                "corpusId": "12225766"
+            },
+            "Fully convolutional networks for semantic segmentation": {
+                "paperId": "6fc6803df5f9ae505cae5b2f178ade4062c768d0",
+                "corpusId": "1629541"
+            },
+            "Very Deep Convolutional Networks for Large-Scale Image Recognition": {
+                "paperId": "eb42cf88027de515750f230b23b1a057dc782108",
+                "corpusId": "14124313"
+            },
+            "Discriminative Unsupervised Feature Learning with Convolutional Neural Networks": {
+                "paperId": "a6fd96a900d4130940b488863b71fd09ad41ccb9",
+                "corpusId": "3244218"
+            },
+            "Caffe: Convolutional Architecture for Fast Feature Embedding": {
+                "paperId": "6bdb186ec4726e00a8051119636d4df3b94043b5",
+                "corpusId": "1799558"
+            },
+            "A benchmark for comparison of cell tracking algorithms": {
+                "paperId": "3bffa23a16c273ac2228a13e65dade6766ce7777",
+                "corpusId": "1462454"
+            },
+            "Image Segmentation with Cascaded Hierarchical Models and Logistic Disjunctive Normal Networks": {
+                "paperId": "4f03888450fde9e8234f616badaae499740e57a4",
+                "corpusId": "2428333"
+            },
+            "Rich Feature Hierarchies for Accurate Object Detection and Semantic Segmentation": {
+                "paperId": "2f4df08d9072fc2ac181b7fced6a245315ce05c8",
+                "corpusId": "215827080"
+            },
+            "Deep Neural Networks Segment Neuronal Membranes in Electron Microscopy Images": {
+                "paperId": "09193e19b59fc8f05bee9d6efbfb1607ca5b6501",
+                "corpusId": "7725346"
+            },
+            "ImageNet classification with deep convolutional neural networks": {
+                "paperId": "abd1c342495432171beb7ca8fd9551ef13cbd0ff",
+                "corpusId": "195908774"
+            },
+            "An Integrated Micro- and Macroarchitectural Analysis of the Drosophila Brain by Computer-Assisted Serial Section Electron Microscopy": {
+                "paperId": "3874df6410a20b1d7ba7091d596398f72bcb93cf",
+                "corpusId": "9086006"
+            },
+            "Backpropagation Applied to Handwritten Zip Code Recognition": {
+                "paperId": "a8e8f3c8d4418c8d62e306538c9c1292635e9d27",
+                "corpusId": "41312633"
+            }
+        }
+    },
+    "You Only Look Once: Unified, Real-Time Object Detection": {
+        "seed_id": "f8e79ac0ea341056ef20f2616628b3e964764cfd",
+        "citations_by_title": {
+            "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks": {
+                "paperId": "424561d8585ff8ebce7d5d07de8dbf7aae5e7270",
+                "corpusId": "10328909"
+            },
+            "R-CNN minus R": {
+                "paperId": "a0afd098e7f56ae5e68ee2c95c2566af28064d54",
+                "corpusId": "14611089"
+            },
+            "Object Detection via a Multi-region and Semantic Segmentation-Aware CNN Model": {
+                "paperId": "020928259a848b91b7c36062e4bbc6df6398c02e",
+                "corpusId": "215824235"
+            },
+            "The Cross-Depiction Problem: Computer Vision Algorithms for Recognising Objects in Artwork and in Photographs": {
+                "paperId": "e2e4faed41fe4c553e9b95431cc688b0fb6ee447",
+                "corpusId": "2401229"
+            },
+            "Fast R-CNN": {
+                "paperId": "7ffdbc358b63378f07311e883dddacc9faeeaf4b",
+                "corpusId": "206770307"
+            },
+            "Object Detection Networks on Convolutional Feature Maps": {
+                "paperId": "f075f89b4f4026748cbf2fb9f989a9934c42ee8f",
+                "corpusId": "5919483"
+            },
+            "Delving Deep into Rectifiers: Surpassing Human-Level Performance on ImageNet Classification": {
+                "paperId": "d6f2f611da110b5b5061731be3fc4c7f45d8ee23",
+                "corpusId": "13740328"
+            },
+            "Real-time grasp detection using convolutional neural networks": {
+                "paperId": "e402c388af4dccf616a7adf7bf334c0d2e6ff948",
+                "corpusId": "1370857"
+            },
+            "Do More Dropouts in Pool5 Feature Maps for Better Object Detection": {
+                "paperId": "0a8dad1cb9004ccf45611fe4d2652a82cd5326df",
+                "corpusId": "16853302"
+            },
+            "Going deeper with convolutions": {
+                "paperId": "e15cf50aa89fee8535703b9f9512fca5bfc43327",
+                "corpusId": "206592484"
+            },
+            "Detecting people in Cubist art": {
+                "paperId": "48c6c7d711663095cb06d448256c1307530f5208",
+                "corpusId": "28653"
+            },
+            "30Hz Object Detection with DPM V5": {
+                "paperId": "827a23b33cc28fcb720baeeaeb7398f5cea67493",
+                "corpusId": "8665988"
+            },
+            "Edge Boxes: Locating Object Proposals from Edges": {
+                "paperId": "b183947ee15718b45546eda6b01e179b9a95421f",
+                "corpusId": "5984060"
+            },
+            "Towards Unified Object Detection and Semantic Segmentation": {
+                "paperId": "aff7cad88753aa4af0b801c9ae32980fcddd6284",
+                "corpusId": "3792560"
+            },
+            "ImageNet Large Scale Visual Recognition Challenge": {
+                "paperId": "e74f9b7f8eec6ba4704c206b93bc8079af3da4bd",
+                "corpusId": "2930547"
+            },
+            "Simultaneous Detection and Segmentation": {
+                "paperId": "342786659379879f58bf5c4ff43c84c83a6a7389",
+                "corpusId": "9272368"
+            },
+            "The Pascal Visual Object Classes Challenge: A Retrospective": {
+                "paperId": "616b246e332573af1f4859aa91440280774c183a",
+                "corpusId": "207252270"
+            },
+            "Spatial Pyramid Pooling in Deep Convolutional Networks for Visual Recognition": {
+                "paperId": "cbb19236820a96038d000dc629225d36e0b6294a",
+                "corpusId": "436933"
+            },
+            "The Fastest Deformable Part Model for Object Detection": {
+                "paperId": "2c58463e1f88ab5063c761648251fdc1929dfa6e",
+                "corpusId": "7360438"
+            },
+            "OverFeat: Integrated Recognition, Localization and Detection using Convolutional Networks": {
+                "paperId": "1109b663453e78a59e4f66446d71720ac58cec25",
+                "corpusId": "4071727"
+            },
+            "Network In Network": {
+                "paperId": "5e83ab70d0cbc003471e87ec306d27d9c80ecb16",
+                "corpusId": "16636683"
+            },
+            "Scalable Object Detection Using Deep Neural Networks": {
+                "paperId": "67fc0ec1d26f334b05fe66d2b7e0767b60fb73b6",
+                "corpusId": "2972501"
+            },
+            "Rich Feature Hierarchies for Accurate Object Detection and Semantic Segmentation": {
+                "paperId": "2f4df08d9072fc2ac181b7fced6a245315ce05c8",
+                "corpusId": "215827080"
+            },
+            "DeCAF: A Deep Convolutional Activation Feature for Generic Visual Recognition": {
+                "paperId": "b8de958fead0d8a9619b55c7299df3257c624a96",
+                "corpusId": "6161478"
+            },
+            "Fast, Accurate Detection of 100,000 Object Classes on a Single Machine": {
+                "paperId": "954ec02492cecbf8a4fc1c8e37179fae613dbfc9",
+                "corpusId": "2568065"
+            },
+            "Selective Search for Object Recognition": {
+                "paperId": "9b223c8a31e0ea1d1f2c9787ffd8416dfc90c912",
+                "corpusId": "216077384"
+            },
+            "Diagnosing Error in Object Detectors": {
+                "paperId": "9f9205a60ddf1135929e0747db34363b3a8c6bc8",
+                "corpusId": "6650709"
+            },
+            "Improving neural networks by preventing co-adaptation of feature detectors": {
+                "paperId": "0060745e006c5f14ec326904119dca19c6545e51",
+                "corpusId": "14832074"
+            },
+            "Object Detection with Discriminatively Trained Part Based Models": {
+                "paperId": "e79272fe3d65197100eae8be9fec6469107969ae",
+                "corpusId": "3198903"
+            },
+            "Region-based Segmentation and Object Detection": {
+                "paperId": "7ca434a6eaf5cf4d6e86aca524e753fadb607979",
+                "corpusId": "6467749"
+            },
+            "Poselets: Body part detectors trained using 3D human pose annotations": {
+                "paperId": "55b29a2505149d06d8c1d616cd30edca40cb029c",
+                "corpusId": "9320620"
+            },
+            "Learning to Localize Objects with Structured Output Regression": {
+                "paperId": "8483da1bc3302c34b437baf8e329390da8f2c9bf",
+                "corpusId": "10402359"
+            },
+            "Histograms of oriented gradients for human detection": {
+                "paperId": "e8b12467bdc20bde976750b8a28decdb33246d1d",
+                "corpusId": "206590483"
+            },
+            "An extended set of Haar-like features for rapid object detection": {
+                "paperId": "9fb7b636edeaf344394fdf37481d7b83eec75358",
+                "corpusId": "11554984"
+            },
+            "Robust Real-Time Face Detection": {
+                "paperId": "8d314c440a537f9338358ef1fa3cc49664c98d8a",
+                "corpusId": "2796017"
+            },
+            "Object recognition from local scale-invariant features": {
+                "paperId": "f9f836d28f52ad260213d32224a6d227f8e8849a",
+                "corpusId": "5258236"
+            },
+            "A general framework for object detection": {
+                "paperId": "76f560991d56ad689ec32f9e9d13291e0193f4cf",
+                "corpusId": "6476085"
+            },
+            "Robust Real-time Object Detection": {
+                "paperId": "4cb4d685b47001652b29dc41c1b3e786277e7647",
+                "corpusId": "235084"
+            }
+        }
+    },
+    "Distilling the Knowledge in a Neural Network": {
+        "seed_id": "0c908739fbff75f03469d13d4a1a07de3414ee19",
+        "citations_by_title": {
+            "Large Scale Distributed Deep Networks": {
+                "paperId": "3127190433230b3dc1abd0680bb58dced4bcd90e",
+                "corpusId": "372467"
+            },
+            "ImageNet classification with deep convolutional neural networks": {
+                "paperId": "abd1c342495432171beb7ca8fd9551ef13cbd0ff",
+                "corpusId": "195908774"
+            },
+            "Improving neural networks by preventing co-adaptation of feature detectors": {
+                "paperId": "0060745e006c5f14ec326904119dca19c6545e51",
+                "corpusId": "14832074"
+            },
+            "Model compression": {
+                "paperId": "30c9bb327b7f2b9f1d1e5b69b9d0c97b410948d9",
+                "corpusId": "11253972"
+            },
+            "Multiple Classifier Systems": {
+                "paperId": "a0456c27cdd58f197032c1c8b4f304f09d4c9bc5",
+                "corpusId": "56776745"
+            },
+            "Adaptive Mixtures of Local Experts": {
+                "paperId": "c8d90974c3f3b40fa05e322df2905fc16204aa56",
+                "corpusId": "572361"
+            },
+            "Dropout: a simple way to prevent neural networks from overfitting": {
+                "paperId": "34f25a8704614163c4095b3ee2fc969b60de4698",
+                "corpusId": "6844431"
+            },
+            "Learning small-size DNN with output-distribution-based criteria": {
+                "paperId": "8d25d04051074be7590cbe5e4e34c45bb26674e1",
+                "corpusId": "704391"
+            },
+            "FUNDAMENTAL TECHNOLOGIES IN MODERN SPEECH RECOGNITION Digital Object Identifier 10.1109/MSP.2012.2205597": {
+                "paperId": "31868290adf1c000c611dfc966b514d5a34e8d23",
+                "corpusId": "58623492"
+            }
+        }
+    }
+}
