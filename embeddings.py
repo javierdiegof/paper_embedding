@@ -1,13 +1,14 @@
 import os
 import subprocess
-import shutil
-import torch  # Need torch to detect the device
+import torch
+from langchain_text_splitters import RecursiveCharacterTextSplitter
+import re
+import json
 
 
 def ocr_directory_marker(input_dir, output_dir):
     """
     Uses 'marker-pdf' to convert PDFs to Markdown.
-    Auto-detects CUDA (Colab) vs MPS (Mac).
     """
     os.makedirs(output_dir, exist_ok=True)
 
@@ -16,21 +17,20 @@ def ocr_directory_marker(input_dir, output_dir):
 
     results = {}
 
-    # --- 🔍 DEVICE DETECTION START ---
+    # Device detection logic
     my_env = os.environ.copy()
 
     if torch.cuda.is_available():
-        print("⚡️ Device Detected: NVIDIA GPU (CUDA)")
+        print("Device Detected: NVIDIA GPU (CUDA)")
         my_env["TORCH_DEVICE"] = "cuda"
     elif torch.backends.mps.is_available():
-        print("🍎 Device Detected: Apple Silicon (MPS)")
+        print("Device Detected: Apple Silicon (MPS)")
         my_env["TORCH_DEVICE"] = "mps"
     else:
-        print("🐢 Device Detected: CPU (Slow)")
+        print("Device Detected: CPU (Slow)")
         my_env["TORCH_DEVICE"] = "cpu"
-    # --- DEVICE DETECTION END ---
 
-    print(f"🚀 Starting Marker OCR on '{input_dir}'...")
+    print(f"Starting Marker OCR on '{input_dir}'...")
 
     if os.path.exists(input_dir):
         for filename in os.listdir(input_dir):
@@ -42,7 +42,7 @@ def ocr_directory_marker(input_dir, output_dir):
 
                 # Skip Logic
                 if os.path.exists(clean_output_path):
-                    print(f"⏭️  Skipping: {filename} (Already exists)")
+                    print(f"Skipping: {filename} (Already exists)")
                     with open(clean_output_path, "r", encoding="utf-8") as f:
                         results[filename] = f.read()
                     continue
@@ -68,12 +68,12 @@ def ocr_directory_marker(input_dir, output_dir):
                         with open(clean_output_path, "w", encoding="utf-8") as f:
                             f.write(content)
 
-                        print(f"  ✅ Success")
+                        print(f"Success")
                     else:
-                        print(f"  ❌ Error: Marker finished but output file missing.")
+                        print(f"Error: Marker finished but output file missing.")
 
                 except subprocess.CalledProcessError as e:
-                    print(f"  ❌ Crash: Marker failed for {filename}")
+                    print(f"Crash: Marker failed for {filename}")
                     # On Colab, print the error so you can see if dependencies are missing
                     print(e.stderr.decode())
 
