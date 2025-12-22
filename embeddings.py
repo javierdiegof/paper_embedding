@@ -1,12 +1,13 @@
 import os
 import subprocess
 import shutil
+import torch  # Need torch to detect the device
 
 
 def ocr_directory_marker(input_dir, output_dir):
     """
     Uses 'marker-pdf' to convert PDFs to Markdown.
-    Skips processing if the .mmd file already exists in output_dir.
+    Auto-detects CUDA (Colab) vs MPS (Mac).
     """
     os.makedirs(output_dir, exist_ok=True)
 
@@ -14,6 +15,20 @@ def ocr_directory_marker(input_dir, output_dir):
     os.makedirs(temp_marker_dir, exist_ok=True)
 
     results = {}
+
+    # --- 🔍 DEVICE DETECTION START ---
+    my_env = os.environ.copy()
+
+    if torch.cuda.is_available():
+        print("⚡️ Device Detected: NVIDIA GPU (CUDA)")
+        my_env["TORCH_DEVICE"] = "cuda"
+    elif torch.backends.mps.is_available():
+        print("🍎 Device Detected: Apple Silicon (MPS)")
+        my_env["TORCH_DEVICE"] = "mps"
+    else:
+        print("🐢 Device Detected: CPU (Slow)")
+        my_env["TORCH_DEVICE"] = "cpu"
+    # --- DEVICE DETECTION END ---
 
     print(f"🚀 Starting Marker OCR on '{input_dir}'...")
 
@@ -23,46 +38,33 @@ def ocr_directory_marker(input_dir, output_dir):
                 pdf_path = os.path.join(input_dir, filename)
                 file_stem = filename.rsplit(".", 1)[0]
 
-                # Define the final destination path ahead of time
                 clean_output_path = os.path.join(output_dir, f"{file_stem}.mmd")
 
-                # --- ⚡️ SKIP LOGIC START ⚡️ ---
+                # Skip Logic
                 if os.path.exists(clean_output_path):
                     print(f"⏭️  Skipping: {filename} (Already exists)")
-
-                    # We still read the file so your downstream code gets the data
                     with open(clean_output_path, "r", encoding="utf-8") as f:
                         results[filename] = f.read()
-                    continue  # Jump to the next file
-                # --- SKIP LOGIC END ---
+                    continue
 
                 print(f"Processing: {filename}")
 
-                # UPDATED COMMAND (Marker v1.0+ style)
                 command = ["marker_single", pdf_path, "--output_dir", temp_marker_dir]
 
-                # OPTIONAL: Force GPU on Mac (remove 'env=my_env' below if not needed)
-                my_env = os.environ.copy()
-                my_env["TORCH_DEVICE"] = "mps"
-
                 try:
+                    # Pass the env with the correct device to the subprocess
                     subprocess.run(command, check=True, capture_output=True, env=my_env)
 
-                    # Locate the generated markdown file
-                    # Marker structure: temp_dir / file_stem / file_stem.md
                     expected_md_path = os.path.join(
                         temp_marker_dir, file_stem, f"{file_stem}.md"
                     )
 
                     if os.path.exists(expected_md_path):
-                        # Read the content
                         with open(expected_md_path, "r", encoding="utf-8") as f:
                             content = f.read()
 
-                        # Save to results
                         results[filename] = content
 
-                        # Save clean copy to main folder (this enables the skip logic next time)
                         with open(clean_output_path, "w", encoding="utf-8") as f:
                             f.write(content)
 
@@ -72,6 +74,7 @@ def ocr_directory_marker(input_dir, output_dir):
 
                 except subprocess.CalledProcessError as e:
                     print(f"  ❌ Crash: Marker failed for {filename}")
+                    # On Colab, print the error so you can see if dependencies are missing
                     print(e.stderr.decode())
 
     return results
