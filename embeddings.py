@@ -72,7 +72,7 @@ def ocr_directory_marker(input_dir, output_dir):
 
                 except subprocess.CalledProcessError as e:
                     print(f"  ❌ Crash: Marker failed for {filename}")
-                    # print(e.stderr.decode())
+                    print(e.stderr.decode())
 
     return results
 
