@@ -169,7 +169,7 @@ def get_citations(paper_id, headers):
     return refs
 
 
-def main():
+def fetch_papers():
     setup_directories()
     master_map = {}
 
@@ -217,7 +217,3 @@ def main():
 
         logger.info(f"    Mapped {len(citations_map)} citations.")
         time.sleep(2)
-
-
-if __name__ == "__main__":
-    main()

@@ -1,4 +1,5 @@
 .vscode/
+__pycache__/
 api_key.json
 seed_papers_md/temp_marker_raw/
 paper_rag_db/
