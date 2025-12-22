@@ -6,11 +6,10 @@ import shutil
 def ocr_directory_marker(input_dir, output_dir):
     """
     Uses 'marker-pdf' to convert PDFs to Markdown.
+    Skips processing if the .mmd file already exists in output_dir.
     """
     os.makedirs(output_dir, exist_ok=True)
 
-    # Marker creates a lot of temporary files/images.
-    # We will use this temp folder to store the raw marker output.
     temp_marker_dir = os.path.join(output_dir, "temp_marker_raw")
     os.makedirs(temp_marker_dir, exist_ok=True)
 
@@ -24,23 +23,33 @@ def ocr_directory_marker(input_dir, output_dir):
                 pdf_path = os.path.join(input_dir, filename)
                 file_stem = filename.rsplit(".", 1)[0]
 
-                # Define the specific output folder for this file (Marker requirement)
-                # Marker will output to: temp_marker_dir/file_stem/file_stem.md
+                # Define the final destination path ahead of time
+                clean_output_path = os.path.join(output_dir, f"{file_stem}.mmd")
+
+                # --- ⚡️ SKIP LOGIC START ⚡️ ---
+                if os.path.exists(clean_output_path):
+                    print(f"⏭️  Skipping: {filename} (Already exists)")
+
+                    # We still read the file so your downstream code gets the data
+                    with open(clean_output_path, "r", encoding="utf-8") as f:
+                        results[filename] = f.read()
+                    continue  # Jump to the next file
+                # --- SKIP LOGIC END ---
 
                 print(f"Processing: {filename}")
 
-                # Construct the command
-                # --batch_multiplier 2 helps saturate the M1 GPU/CPU
-                # --langs English ensures it focuses on English text
+                # UPDATED COMMAND (Marker v1.0+ style)
                 command = ["marker_single", pdf_path, "--output_dir", temp_marker_dir]
 
+                # OPTIONAL: Force GPU on Mac (remove 'env=my_env' below if not needed)
+                my_env = os.environ.copy()
+                my_env["TORCH_DEVICE"] = "mps"
+
                 try:
-                    # Run Marker as a subprocess
-                    # capture_output=True keeps your terminal clean from Marker's verbose logs
-                    subprocess.run(command, check=True, capture_output=True)
+                    subprocess.run(command, check=True, capture_output=True, env=my_env)
 
                     # Locate the generated markdown file
-                    # Marker structure: output_folder / pdf_name / pdf_name.md
+                    # Marker structure: temp_dir / file_stem / file_stem.md
                     expected_md_path = os.path.join(
                         temp_marker_dir, file_stem, f"{file_stem}.md"
                     )
@@ -50,11 +59,10 @@ def ocr_directory_marker(input_dir, output_dir):
                         with open(expected_md_path, "r", encoding="utf-8") as f:
                             content = f.read()
 
-                        # Save it to your results dict
+                        # Save to results
                         results[filename] = content
 
-                        # OPTIONAL: Save a clean copy to your main output folder (flattened)
-                        clean_output_path = os.path.join(output_dir, f"{file_stem}.mmd")
+                        # Save clean copy to main folder (this enables the skip logic next time)
                         with open(clean_output_path, "w", encoding="utf-8") as f:
                             f.write(content)
 
@@ -64,10 +72,7 @@ def ocr_directory_marker(input_dir, output_dir):
 
                 except subprocess.CalledProcessError as e:
                     print(f"  ❌ Crash: Marker failed for {filename}")
-                    print(e.stderr.decode())  # Uncomment to debug specific crashes
-
-    # Cleanup: Remove the folder with extracted images/JSONs if you don't need them
-    # shutil.rmtree(temp_marker_dir)
+                    # print(e.stderr.decode())
 
     return results
 
