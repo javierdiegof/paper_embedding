@@ -3,7 +3,7 @@ from sentence_transformers import SentenceTransformer
 
 # --- Configuration ---
 DB_PATH = "paper_rag_db"
-EMBED_MODEL_NAME = "all-mpnet-base-v2"
+EMBED_MODEL_NAME = "nomic-ai/nomic-embed-text-v1.5"
 TOP_K = 3
 
 
