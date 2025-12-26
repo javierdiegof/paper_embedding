@@ -10,19 +10,8 @@ from pathlib import Path
 SEED_PAPERS = {
     "Attention Is All You Need": "ARXIV:1706.03762",
     "BERT": "ARXIV:1810.04805",
-    "Deep Residual Learning for Image Recognition": "ARXIV:1512.03385",
     "Adam: A Method for Stochastic Optimization": "ARXIV:1412.6980",
     "Layer Normalization": "ARXIV:1607.06450",
-    "Sequence to Sequence Learning with Neural Networks": "ARXIV:1409.3215",
-    "Neural Machine Translation (Bahdanau Attention)": "ARXIV:1409.0473",
-    "Playing Atari with Deep Reinforcement Learning": "ARXIV:1312.5602",
-    "Generative Adversarial Networks": "ARXIV:1406.2661",
-    "Dropout": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",  # S2 ID (Dropout sometimes tricky on ArXiv versions)
-    "Batch Normalization": "ARXIV:1502.03167",
-    "Mask R-CNN": "ARXIV:1703.06870",
-    "U-Net": "ARXIV:1505.04597",
-    "You Only Look Once (YOLO)": "ARXIV:1506.02640",
-    "Distilling the Knowledge in a Neural Network": "ARXIV:1503.02531",
 }
 
 # --- Configuration ---

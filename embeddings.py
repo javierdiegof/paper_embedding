@@ -4,6 +4,7 @@ import torch
 import re
 import json
 import chromadb
+import bitsandbytes
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from thefuzz import process  # For fuzzy matching titles
 from langchain_text_splitters import RecursiveCharacterTextSplitter
@@ -12,9 +13,9 @@ from transformers import AutoTokenizer, AutoModelForCausalLM, BitsAndBytesConfig
 
 CITATION_MAP_PATH = "citation_resolver_map.json"
 DB_PATH = "paper_rag_db"
-EMBED_MODEL_NAME = "all-mpnet-base-v2"
-CHUNK_SIZE = 1000
-CHUNK_OVERLAP = 200
+EMBED_MODEL_NAME = "nomic-ai/nomic-embed-text-v1.5"
+CHUNK_SIZE = 2500
+CHUNK_OVERLAP = 400
 
 
 def ocr_directory_marker(input_dir, output_dir):
@@ -93,7 +94,7 @@ def ocr_directory_marker(input_dir, output_dir):
 
 def run_pipeline(input_dir):
     # Initialize Models
-    embedder = SentenceTransformer(EMBED_MODEL_NAME)
+    embedder = SentenceTransformer(EMBED_MODEL_NAME, trust_remote_code=True)
     enricher = ContextEnricher()
     resolver = CitationResolver(CITATION_MAP_PATH)
 
