@@ -43,7 +43,7 @@ def query_db(queries):
         print(f"     \"{best_meta['enriched_context']}\"")
 
         print(f"    Snippet:")
-        print(f'     "{best_doc[:1000]}..."')  # Truncated for display
+        print(f'     "{best_doc}..."')  # Truncated for display
 
         # Show Citations Resolution
         print(f"   ► Resolved Citations (Snowball targets):")
