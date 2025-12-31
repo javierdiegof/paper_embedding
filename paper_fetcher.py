@@ -5,8 +5,7 @@ import json
 import logging
 from pathlib import Path
 
-# --- 1. The "Golden Set" with DIRECT IDs (No Searching Needed) ---
-# We use ArXiv IDs where possible as they are resolvable by S2 API.
+# The AI2PF tool is able to retrieve papers by their arxiv ids
 SEED_PAPERS = {
     "Attention Is All You Need": "ARXIV:1706.03762",
     "BERT": "ARXIV:1810.04805",
@@ -14,7 +13,7 @@ SEED_PAPERS = {
     "Layer Normalization": "ARXIV:1607.06450",
 }
 
-# --- Configuration ---
+# The base URL
 S2_BASE_URL = "https://api.semanticscholar.org/graph/v1"
 
 
@@ -33,6 +32,10 @@ def setup_directories():
 
 
 def get_credentials():
+    """
+    Fetches the credentials from the local api_key.json
+    This file is needed to run the notebook from scratch
+    """
     key_filename = "api_key.json"
     file_path = Path(key_filename)
     if file_path.exists():
@@ -141,7 +144,9 @@ def download_pdf(url, filename):
 
 
 def get_citations(paper_id, headers):
-    """Fetches citation metadata (IDs only)."""
+    """
+    Using the AI2PF API, we retrieve the citation that a paper has from its id
+    """
     url = f"{S2_BASE_URL}/paper/{paper_id}/references"
     params = {
         "fields": "paperId,title,corpusId",

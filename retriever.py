@@ -1,7 +1,7 @@
 import chromadb
 from sentence_transformers import SentenceTransformer
 
-# --- Configuration ---
+# Configuration
 DB_PATH = "paper_rag_db"
 EMBED_MODEL_NAME = "nomic-ai/nomic-embed-text-v1.5"
 TOP_K = 3
@@ -43,7 +43,7 @@ def query_db(queries):
         print(f"     \"{best_meta['enriched_context']}\"")
 
         print(f"    Snippet:")
-        print(f'     "{best_doc}..."')  # Truncated for display
+        print(f'     "{best_doc}..."')
 
         # Show Citations Resolution
         print(f"   ► Resolved Citations (Snowball targets):")
